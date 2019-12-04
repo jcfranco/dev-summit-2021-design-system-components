@@ -1,0 +1,8 @@
+{
+  "name": "dev-summit-2021-design-system-components",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "esri-reveal.js-templates": "git+https://github.com/esri/reveal.js.git"
+  }
+}
