@@ -11,13 +11,59 @@
 
 ## Agenda
 
-* Outline
-* Intro
-* Components
-  * `esri-components`
-  * `esri-app-components`
-* Demo
-* Q&A
+- Intro
+- Esri Design System 
+- Demo
+- Q&A
+
+---
+
+<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
+
+## Intro
+
+---
+
+<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-2.png" data-background-size="cover"  -->
+
+## Intro
+
+- Lots of options
+- Cost of reimplementing designs across libs
+- Web Components
+  - Web standard
+  - APIs
+  - Tooling: [Stencil](https://stenciljs.com/)
+
+---
+
+<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
+
+## Esri Design System
+
+---
+
+<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-2.png" data-background-size="cover"  -->
+
+## Esri Design System
+
+- Goals
+  - Consistent UX
+  - DRY
+  - Reduce cost of design updates
+  - Ease Esri apps follow agreed upon designs/workflows
+- Components
+  - Exploring the Design System
+  - Plug and play
+  - Customization options
+  - Examples in the wild
+    - Map Viewer Beta
+
+---
+
+<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
+
+## Demo
 
 ---
 
