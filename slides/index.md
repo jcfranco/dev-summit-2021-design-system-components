@@ -1,4 +1,4 @@
-<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/devsummit/bg-1.png" data-background-size="cover" -->
+<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-1.png" data-background-size="cover" -->
 
 # Esri Components: A web component based UI library for JavaScript mapping applications
 
@@ -7,7 +7,7 @@
 
 ---
 
-<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/devsummit/bg-3.png" data-background-size="cover" -->
+<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
 
 ## Agenda
 
@@ -21,19 +21,27 @@
 
 ---
 
-<!-- SURVEY SLIDE: -->
-<section data-markdown data-background="../node_modules/esri-reveal.js-templates/img/2021/devsummit/bg-rating.png"></section>
+# Questions? 🤔
+
+> Where can I find the slides/source?
+
+[bit.ly/customwidgetsds21](http://bit.ly/customwidgetsds21)
+
+> Where can I submit a question?
+
+[bit.ly/askjsapi](http://bit.ly/askjsapi)
 
 ---
 
-## Questions?
+<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-5.png" data-background-size="cover" -->
 
-##### For example
-
-> 🤔 Where can I find the slides/source?
-
-👉 [bit.ly/components21](http://bit.ly/components21) 👈
+<img src="../node_modules/esri-reveal.js-templates/img/esri-science-logo-white.png" />
 
 ---
 
-<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/devsummit/bg-esri.png" data-background-size="cover" -->
+<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-5.png" data-background-size="cover" -->
+
+Please provide your feedback for this session by clicking on the session survey link directly below the video
+
+<!-- .element: style="margin: 0 20%;" -->
+
