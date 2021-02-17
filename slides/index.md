@@ -3,6 +3,7 @@
 # Esri Components: A web component based UI library for JavaScript mapping applications
 
 #### Matt Driscoll
+
 #### JC Franco
 
 ---
@@ -12,7 +13,7 @@
 ## Agenda
 
 - Intro
-- Esri Design System 
+- Esri Design System
 - Demo
 - Q&A
 
@@ -47,17 +48,25 @@
 
 ## Esri Design System
 
-- Goals
+- Problem
+  - Inconsistent UX
+  - dev effort & cost
+  - no a11y
+  - single framework
+- Solution
+  - Design system & components
   - Consistent UX
   - DRY
   - Reduce cost of design updates
   - Ease Esri apps follow agreed upon designs/workflows
-- Components
+- Components Introduction
   - Exploring the Design System
   - Plug and play
   - Customization options
-  - Examples in the wild
-    - Map Viewer Beta
+  - Demo 1: simple page app
+  - Demo 2: simple mapping app with embedded map
+- Examples in the wild
+  - Map Viewer Beta
 
 ---
 
@@ -90,4 +99,3 @@
 Please provide your feedback for this session by clicking on the session survey link directly below the video
 
 <!-- .element: style="margin: 0 20%;" -->
-
