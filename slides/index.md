@@ -61,8 +61,12 @@
   - Ease Esri apps follow agreed upon designs/workflows
 - Components Introduction
   - Exploring the Design System
+    - web components
+    - built on stencil
   - Plug and play
   - Customization options
+    - RTL
+    - locale
   - Demo 1: simple page app
   - Demo 2: simple mapping app with embedded map
 - Examples in the wild
