@@ -95,7 +95,7 @@ Goal: Introduce Esri's design system components, their benefits, and how they ca
 
 > Where can I find the slides/source?
 
-[bit.ly/customwidgetsds21](http://bit.ly/customwidgetsds21)
+[bit.ly/componentsds21](https://bit.ly/componentsds21)
 
 > Where can I submit a question?
 
