@@ -71,6 +71,8 @@ Goal: Introduce Esri's design system components, their benefits, and how they ca
   - built on stencil
   - licensing?
   - Plug and play
+  - Themable
+  - Icons
   - Customization options
     - RTL
     - locale
