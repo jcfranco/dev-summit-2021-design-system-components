@@ -48,27 +48,36 @@
 
 ## Esri Design System
 
-- Problem
+Goal: Introduce Esri's design system components, their benefits, and how they can be used now to make Esri branded mapping applications.
+
+- Intro
+- Agenda
+- Problem (Why)
   - Inconsistent UX
   - dev effort & cost
   - no a11y
   - single framework
-- Solution
+- Solution (How)
   - Design system & components
   - Consistent UX
   - DRY
+  - Esri branded
   - Reduce cost of design updates
   - Ease Esri apps follow agreed upon designs/workflows
-- Components Introduction
+  - Future proof
+- Show components (What)
   - Exploring the Design System
-    - web components
-    - built on stencil
+  - web components
+  - built on stencil
+  - licensing?
   - Plug and play
   - Customization options
     - RTL
     - locale
-  - Demo 1: simple page app
-  - Demo 2: simple mapping app with embedded map
+- Gettting started (How)
+  - Demo 1: Get the components
+  - Demo 2: simple page app
+  - Demo 3: simple mapping app with embedded map
 - Examples in the wild
   - Map Viewer Beta
 
