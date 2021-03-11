@@ -36,6 +36,12 @@ window.onload = () => {
     combobox.appendChild(comboboxItem);
   });
 
+  const otherAspectCheckbox = document.getElementById("other-aspect-checkbox");
+  const otherAspectLabel = document.getElementById("other-aspect-label");
+  otherAspectCheckbox.addEventListener("calciteCheckboxChange", () => {
+    otherAspectLabel.toggleAttribute("disabled");
+  });
+
   const form = document.getElementById("form");
   const submit = document.getElementById("submit");
   const progress = document.getElementById("progress");
