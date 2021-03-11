@@ -19,103 +19,147 @@
       nomodule=""
       src="https://unpkg.com/@esri/calcite-components@next/dist/calcite/calcite.js"
     ></script>
+
+    <script src="demo.js"></script>
+    <link rel="stylesheet" href="demo.css" />
   </head>
   <body>
-    <h1>Calcite Coffee Questionnaire</h1>
+    <calcite-progress
+      id="progress"
+      type="indeterminate"
+      hidden
+    ></calcite-progress>
+    <h1>Calcite Coffee</h1>
 
     <calcite-notice icon="information" active dismissible width="half">
       <div slot="notice-title">Please fill out our questionnaire</div>
       <div slot="notice-message">Help us brew better coffee.</div>
     </calcite-notice>
 
-    Theme <calcite-icon icon="question" scale="s"></calcite-icon>
+    Switch Theme <calcite-icon icon="question" scale="s"></calcite-icon>
     <calcite-label layout="inline">
-      Dark
-      <calcite-switch></calcite-switch>
+      Dark theme
+      <calcite-switch id="theme-switch"></calcite-switch>
     </calcite-label>
 
-    <form>
-      <ol>
-        <li>
-          <calcite-label>
-            Your name
-            <calcite-input type="text" placeholder="John Doe"> </calcite-input>
-          </calcite-label>
-        </li>
-        <li>
-          <calcite-label
-            >What time of day do you usually drink coffee?</calcite-label
-          >
-          <calcite-select>
-            <calcite-option label="Please select..."></calcite-option>
-            <calcite-option label="Morning"></calcite-option>
-            <calcite-option label="Noon"></calcite-option>
-            <calcite-option label="Afternoon"></calcite-option>
-            <calcite-option label="Evening"></calcite-option>
-          </calcite-select>
-        </li>
-        <li>
-          <calcite-label
-            >Do you prefer going out for coffee or drinking it at
-            home?</calcite-label
-          >
-          <calcite-radio-button-group>
-            <calcite-radio-button value="out"> Going out </calcite-radio-button>
-            <calcite-radio-button value="home">
-              Drinking at home
-            </calcite-radio-button>
-          </calcite-radio-button-group>
-        </li>
-        <li>
-          <calcite-label
-            >How many cups of coffe do you drink per day?
-            <calcite-slider></calcite-slider
-          ></calcite-label>
-        </li>
-        <li>
-          <calcite-label
-            >What is your favourite coffee drink?
-            <calcite-combobox>
-              <calcite-combobox-item
-                text-label="Latte"
-                value="Latte"
-              ></calcite-combobox-item>
-              <calcite-combobox-item
-                text-label="Mocha"
-                value="Mocha"
-              ></calcite-combobox-item>
-              <calcite-combobox-item
-                text-label="Macchiato"
-                value="Macchiato"
-              ></calcite-combobox-item> </calcite-combobox
-          ></calcite-label>
-        </li>
-        <li>
-          <calcite-label
-            >What is the most important aspect(s) of your coffee?</calcite-label
-          >
-          <calcite-checkbox>Price</calcite-checkbox>
-          <calcite-checkbox>Taste</calcite-checkbox>
-          <calcite-checkbox>Easiest to make</calcite-checkbox>
-          <calcite-checkbox>Other (please specify)</calcite-checkbox>
-          <calcite-input disabled></calcite-input>
-        </li>
-        <li>
-          <calcite-label
-            >When was the last time you drank coffee?<calcite-input-date-picker
-            ></calcite-input-date-picker
-          ></calcite-label>
-        </li>
-        <li>
-          <calcite-label
-            >How many stars would you give calcite coffee?
-            <calcite-rating></calcite-rating
-          ></calcite-label>
-        </li>
-      </ol>
-
-      <calcite-button type="submit">Submit</calcite-button>
-      <!-- on submit, - show loader on button, progress on page, - show alert, clear -->
+    <form id="form">
+      <fieldset>
+        <legend>Coffee Questionnaire</legend>
+        <ol>
+          <li>
+            <calcite-label>
+              Your name
+              <calcite-input type="text" placeholder="John Doe">
+              </calcite-input>
+            </calcite-label>
+          </li>
+          <li>
+            <calcite-label
+              >What time of day do you usually drink coffee?</calcite-label
+            >
+            <calcite-select>
+              <calcite-option label="Please select..."></calcite-option>
+              <calcite-option label="Morning"></calcite-option>
+              <calcite-option label="Noon"></calcite-option>
+              <calcite-option label="Afternoon"></calcite-option>
+              <calcite-option label="Evening"></calcite-option>
+            </calcite-select>
+          </li>
+          <li>
+            <calcite-label
+              >Do you prefer going out for coffee or drinking it at
+              home?</calcite-label
+            >
+            <calcite-radio-button-group>
+              <calcite-radio-button value="out">
+                Going out
+              </calcite-radio-button>
+              <calcite-radio-button value="home">
+                Drinking at home
+              </calcite-radio-button>
+            </calcite-radio-button-group>
+          </li>
+          <li>
+            <calcite-label
+              >How many cups of coffee do you usually drink per day?
+              <calcite-slider
+                snap
+                label-handles
+                label-ticks
+                ticks="5"
+                label="Cups of coffee"
+                value="0"
+                min="0"
+                max="5"
+                step="1"
+              ></calcite-slider
+            ></calcite-label>
+          </li>
+          <li>
+            <calcite-label
+              >What is your favourite coffee drink(s)?
+              <calcite-combobox id="combobox"></calcite-combobox
+            ></calcite-label>
+          </li>
+          <li>
+            <calcite-label
+              >How do you like your coffee?<calcite-radio-group
+                layout="horizontal"
+              >
+                <calcite-radio-group-item value="0" checked="">
+                  Weak & Milky
+                </calcite-radio-group-item>
+                <calcite-radio-group-item value="1"
+                  >Weak & Black
+                </calcite-radio-group-item>
+                <calcite-radio-group-item value="2"
+                  >Somewhere in the middle
+                </calcite-radio-group-item>
+                <calcite-radio-group-item value="3"
+                  >Strong & Milky
+                </calcite-radio-group-item>
+                <calcite-radio-group-item value="4"
+                  >Strong & Black
+                </calcite-radio-group-item>
+              </calcite-radio-group>
+            </calcite-label>
+          </li>
+          <li>
+            <fieldset>
+              <legend>
+                What is the most important aspect(s) of your coffee?
+              </legend>
+              <calcite-checkbox>Price</calcite-checkbox>
+              <calcite-checkbox>Taste</calcite-checkbox>
+              <calcite-checkbox>Easiest to make</calcite-checkbox>
+              <calcite-checkbox>Other (please specify)</calcite-checkbox>
+              <calcite-label disabled
+                >Other<calcite-input></calcite-input
+              ></calcite-label>
+            </fieldset>
+          </li>
+          <li>
+            <calcite-label
+              >When was the last day you drank coffee?<calcite-input-date-picker
+              ></calcite-input-date-picker
+            ></calcite-label>
+          </li>
+          <li>
+            <calcite-label
+              >How many stars would you give calcite coffee?
+              <calcite-rating></calcite-rating
+            ></calcite-label>
+          </li>
+        </ol>
+        <calcite-button id="submit">Submit</calcite-button>
+        <calcite-button appearance="outline" id="reset">Reset</calcite-button>
+      </fieldset>
     </form>
+    <calcite-alert id="alert" icon auto-dismiss-duration="medium" color="green">
+      <div slot="alert-message">
+        <strong>Success!</strong>
+        Thank you for your feedback.
+      </div>
+    </calcite-alert>
   </body>
 </html>
