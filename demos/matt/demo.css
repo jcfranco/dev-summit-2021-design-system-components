@@ -30,6 +30,16 @@ fieldset {
   top: 20px;
   right: 20px;
   z-index: 2;
+  background-color: var(--calcite-ui-background);
+  border: 1px solid;
+  border-color: var(--calcite-ui-border-1);
+  border-radius: var(--calcite-border-radius);
+  margin: 0;
+  padding: 10px;
+}
+
+#theme-label label {
+  margin: 0;
 }
 
 #progress {
