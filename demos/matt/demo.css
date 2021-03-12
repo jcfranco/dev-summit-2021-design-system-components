@@ -16,6 +16,15 @@ body {
   background-color: var(--calcite-ui-background);
 }
 
+.logo {
+  background-color: #fff;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  margin: 2em auto;
+  border-radius: var(--calcite-border-radius);
+}
+
 fieldset {
   margin: 2.5rem 0;
   padding: 1rem;
