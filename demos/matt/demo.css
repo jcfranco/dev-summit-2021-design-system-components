@@ -19,6 +19,10 @@ body {
 fieldset {
   margin: 1rem 0;
   padding: 1rem;
+  border-collapse: collapse;
+  border: 1px solid;
+  border-color: var(--calcite-ui-border-1);
+  border-radius: var(--calcite-border-radius);
 }
 
 #theme-label {
