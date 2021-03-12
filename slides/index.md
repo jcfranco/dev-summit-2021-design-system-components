@@ -65,11 +65,11 @@ Goal: Introduce Esri's design system components, their benefits, and how they ca
   - Reduce cost of design updates
   - Ease Esri apps follow agreed upon designs/workflows
   - Future proof
+  - built on stencil
 - Show components (What)
   - Exploring the Design System
   - web components
-  - built on stencil
-  - licensing?
+  - licensing? - ping Julio/julie
   - Plug and play
   - Themable
   - Icons
