@@ -25,7 +25,10 @@ window.onload = () => {
   const themeSwitch = document.getElementById("theme-switch");
   themeSwitch.addEventListener("calciteSwitchChange", () => {
     const currentTheme = document.body.getAttribute("theme");
-    document.body.setAttribute("theme", currentTheme === "dark" ? "light" : "dark")
+    document.body.setAttribute(
+      "theme",
+      currentTheme === "dark" ? "light" : "dark"
+    );
   });
 
   const combobox = document.getElementById("combobox");
@@ -42,6 +45,16 @@ window.onload = () => {
     otherAspectLabel.toggleAttribute("disabled");
   });
 
+  // const datePicker = document.getElementById("date-picker");
+  // const date = new Date();
+  // function fix2(n) {
+  //   return n < 10 ? "0" + n : n;
+  // }
+  // datePicker.max = `${fix2(date.getMonth() + 1)}/${fix2(
+  //   date.getDate()
+  // )}/${date.getFullYear()}`;
+  // console.log(datePicker.max);
+
   const form = document.getElementById("form");
   const submit = document.getElementById("submit");
   const progress = document.getElementById("progress");
@@ -54,10 +67,7 @@ window.onload = () => {
     setTimeout(() => {
       submit.loading = false;
       progress.setAttribute("hidden", "");
-      form.reset();
       alert.active = true;
-
     }, 2000);
   };
-
 };

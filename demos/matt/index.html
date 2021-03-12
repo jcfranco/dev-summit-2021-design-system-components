@@ -7,18 +7,9 @@
       applications
     </title>
 
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/@esri/calcite-components@next/dist/calcite/calcite.css"
-    />
-    <script
-      type="module"
-      src="https://unpkg.com/@esri/calcite-components@next/dist/calcite/calcite.esm.js"
-    ></script>
-    <script
-      nomodule=""
-      src="https://unpkg.com/@esri/calcite-components@next/dist/calcite/calcite.js"
-    ></script>
+    <link rel="stylesheet" href="../calcite/calcite.css" />
+    <script type="module" src="../calcite/calcite.esm.js"></script>
+    <script nomodule="" src="../calcite/calcite.js"></script>
 
     <script src="demo.js"></script>
     <link rel="stylesheet" href="demo.css" />
@@ -143,6 +134,7 @@
           <li>
             <calcite-label
               >When was the last day you drank coffee?<calcite-input-date-picker
+                id="date-picker"
               ></calcite-input-date-picker
             ></calcite-label>
           </li>
@@ -154,9 +146,6 @@
           </li>
         </ol>
         <calcite-button id="submit" type="submit">Submit</calcite-button>
-        <calcite-button appearance="outline" id="reset" type="reset"
-          >Reset</calcite-button
-        >
       </fieldset>
     </form>
     <calcite-alert id="alert" icon auto-dismiss-duration="medium" color="green">
