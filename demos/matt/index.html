@@ -15,36 +15,51 @@
     <link rel="stylesheet" href="demo.css" />
   </head>
   <body>
-    <calcite-progress
-      id="progress"
-      type="indeterminate"
-      hidden
-    ></calcite-progress>
     <h1>Calcite Coffee</h1>
 
-    <calcite-notice icon="information" active dismissible width="half">
+    <!-- Theme switcher -->
+    <div id="theme-label">
+      <calcite-label layout="inline">
+        Toggle theme
+        <calcite-switch id="theme-switch"></calcite-switch
+      ></calcite-label>
+    </div>
+
+    <!-- Notice -->
+    <calcite-notice icon="information" active dismissible>
       <div slot="notice-title">Please fill out our questionnaire</div>
       <div slot="notice-message">Help us brew better coffee.</div>
     </calcite-notice>
 
-    Switch Theme <calcite-icon icon="question" scale="s"></calcite-icon>
-    <calcite-label layout="inline">
-      Dark theme
-      <calcite-switch id="theme-switch"></calcite-switch>
-    </calcite-label>
-
+    <!-- Form -->
     <form id="form">
       <fieldset>
         <legend>Coffee Questionnaire</legend>
         <ol>
           <li>
-            <calcite-label>
-              Your name
-              <calcite-input type="text" placeholder="John Doe">
-              </calcite-input>
-            </calcite-label>
+            <!-- Tooltip -->
+            <calcite-tooltip-manager>
+              <calcite-tooltip reference-element="theme-help"
+                >Nice to meet you!</calcite-tooltip
+              >
+              <!-- Input -->
+              <calcite-label>
+                <span
+                  >Your name
+                  <calcite-icon
+                    tabindex="0"
+                    id="theme-help"
+                    icon="question"
+                    scale="s"
+                  ></calcite-icon
+                ></span>
+                <calcite-input type="text" placeholder="John Doe">
+                </calcite-input>
+              </calcite-label>
+            </calcite-tooltip-manager>
           </li>
           <li>
+            <!-- Select -->
             <calcite-label
               >What time of day do you usually drink coffee?</calcite-label
             >
@@ -57,6 +72,7 @@
             </calcite-select>
           </li>
           <li>
+            <!-- Radio group -->
             <calcite-label
               >Do you prefer going out for coffee or drinking it at
               home?</calcite-label
@@ -71,6 +87,7 @@
             </calcite-radio-button-group>
           </li>
           <li>
+            <!-- Slider -->
             <calcite-label
               >How many cups of coffee do you usually drink per day?
               <calcite-slider
@@ -87,12 +104,14 @@
             ></calcite-label>
           </li>
           <li>
+            <!-- Combobox -->
             <calcite-label
               >What is your favourite coffee drink(s)?
               <calcite-combobox id="combobox"></calcite-combobox
             ></calcite-label>
           </li>
           <li>
+            <!-- Radio group block -->
             <calcite-label
               >How do you like your coffee?<calcite-radio-group
                 layout="horizontal"
@@ -116,15 +135,26 @@
             </calcite-label>
           </li>
           <li>
+            <!-- Checkboxes -->
             <fieldset>
               <legend>
                 What is the most important aspect(s) of your coffee?
               </legend>
-              <calcite-checkbox>Price</calcite-checkbox>
-              <calcite-checkbox>Taste</calcite-checkbox>
-              <calcite-checkbox>Easiest to make</calcite-checkbox>
-              <calcite-checkbox id="other-aspect-checkbox"
-                >Other (please specify)</calcite-checkbox
+              <calcite-label>
+                <calcite-checkbox>Price</calcite-checkbox>
+              </calcite-label>
+              <calcite-label
+                ><calcite-checkbox>Taste</calcite-checkbox></calcite-label
+              >
+              <calcite-label
+                ><calcite-checkbox
+                  >Easiest to make</calcite-checkbox
+                ></calcite-label
+              >
+              <calcite-label>
+                <calcite-checkbox id="other-aspect-checkbox"
+                  >Other (please specify)</calcite-checkbox
+                ></calcite-label
               >
               <calcite-label disabled id="other-aspect-label"
                 >Other<calcite-input></calcite-input
@@ -132,6 +162,7 @@
             </fieldset>
           </li>
           <li>
+            <!-- Date picker -->
             <calcite-label
               >When was the last day you drank coffee?<calcite-input-date-picker
                 id="date-picker"
@@ -139,20 +170,31 @@
             ></calcite-label>
           </li>
           <li>
+            <!-- Rating -->
             <calcite-label
               >How many stars would you give calcite coffee?
               <calcite-rating></calcite-rating
             ></calcite-label>
           </li>
         </ol>
+        <!-- Button -->
         <calcite-button id="submit" type="submit">Submit</calcite-button>
       </fieldset>
     </form>
+
+    <!-- Alert -->
     <calcite-alert id="alert" icon auto-dismiss-duration="medium" color="green">
       <div slot="alert-message">
         <strong>Success!</strong>
         Thank you for your feedback.
       </div>
     </calcite-alert>
+
+    <!-- Progress -->
+    <calcite-progress
+      id="progress"
+      type="indeterminate"
+      hidden
+    ></calcite-progress>
   </body>
 </html>

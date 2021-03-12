@@ -1,3 +1,33 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--calcite-sans-family);
+  font-size: var(--calcite-font-size-0);
+  color: var(--calcite-ui-text-1);
+  max-width: 1024px;
+  min-width: 280px;
+  width: 70vw;
+  padding: 0 var(--calcite-spacing-double);
+  margin: 0 auto;
+  background-color: var(--calcite-ui-background);
+}
+
+fieldset {
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+#theme-label {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 2;
+}
+
 #progress {
   position: fixed;
   top: 0;
