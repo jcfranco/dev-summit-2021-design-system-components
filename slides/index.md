@@ -76,7 +76,7 @@ Goal: Introduce Esri's design system components, their benefits, and how they ca
   - Customization options
     - RTL
     - locale
-- Gettting started (How)
+- Getting started (How)
   - Demo 1: Get the components
   - Demo 2: simple page app
   - Demo 3: simple mapping app with embedded map
