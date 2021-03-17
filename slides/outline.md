@@ -6,11 +6,12 @@ Introduce Esri's design system components, their benefits, and how they can be u
 - Agenda
   - Introduction
   - Benefits
-  - Exploration
-  - Usage
+  - Calcite Tour
+  - Getting started
   - Creating Esri branded apps
+  - Theming
   - Examples out in the wild
-- Introduction to Calcite components?
+- Introduction to Calcite components
   - 50+ plug and play web components
   - Part of Calcite
     - Esri's design system.
@@ -33,25 +34,23 @@ Introduce Esri's design system components, their benefits, and how they can be u
     - Web components
     - multiple frameworks
     - built using Stencil.js
-- Explore Documentation & samples
+- Calcite Tour
   - Components
   - Icons
   - Colors
-- Usage
-  - Getting started
-    - Demo 1: Get the components
-  - Using Calcite components
-    - Custom elements
-    - Slots
-    - Shadow DOM
-    - configuration
-  - Themable
+- Getting started
+  - Demo 1: Get the components
+  - Custom elements
+  - Shadow DOM
+  - Slots
+  - Configuration
     - Themes
-    - CSS variables
-  - Customization
-    - RTL
-    - locale
+    - RTL support
+    - Internationalization
+- Create Esri branded apps
   - Demo 2: simple page app
   - Demo 3: simple mapping app with embedded map
-- Examples in the wild
+- Theming
+  - CSS variables
+- Examples out in the wild
   - Map Viewer Beta

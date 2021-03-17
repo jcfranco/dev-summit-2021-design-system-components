@@ -1,6 +1,8 @@
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-1.png" data-background-size="cover" -->
 
-# Esri Components: A web component based UI library for JavaScript mapping applications
+# Calcite Components
+
+A web component based UI library for JavaScript mapping applications
 
 #### Matt Driscoll
 
@@ -14,10 +16,11 @@
 
 - Introduction
 - Benefits
-- Exploration
-- Usage
-- Creating Esri branded apps
-- Examples out in the wild
+- Tour of Calcite
+- Getting started
+- Create Esri branded apps
+- Theming
+- Examples in the wild
 
 ---
 
@@ -29,32 +32,159 @@
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-2.png" data-background-size="cover"  -->
 
-## Intro
+## Introduction: Calcite components
 
-- Lots of options
-- Cost of reimplementing designs across libs
-- Web Components
-  - Web standard
-  - APIs
-  - Tooling: [Stencil](https://stenciljs.com/)
-
----
-
-<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
-
-## Esri Design System
-
----
-
-<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-2.png" data-background-size="cover"  -->
-
-## Esri Design System
+- Part of Calcite
+  - Esri's design system. <!-- Collection of reusable components, guided by clear standards, that can be assembled together to build any number of applications -->
+  - New developer offering
+  - Part of the developer subscription
+- 50+ web components
+- Plug and play
 
 ---
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
 
-## Demo
+## Benefits
+
+---
+
+## Benefits: Consistency
+
+- Consistent UX
+  - Esri branded
+  - Identity
+  - Principles
+  - best practices
+
+---
+
+## Benefits: Accessibility
+
+- Accessibility
+
+---
+
+## Benefits: Effort
+
+- Effort & cost
+  - Ease Esri apps follow agreed upon designs workflows
+  - Reduce cost of design updates
+  - Dry
+
+---
+
+## Benefits: Modernization
+
+- Modernization
+  - Future proof
+  - Web components
+  - multiple frameworks
+  - built using Stencil.js
+
+---
+
+<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
+
+## Calcite Tour
+
+---
+
+## Calcite: Components
+
+---
+
+## Calcite: Icons
+
+---
+
+## Calcite: Colors
+
+---
+
+<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
+
+## Getting Started
+
+---
+
+## Getting Started: Web components
+
+- Web standard
+- APIs
+- Tooling: [Stencil](https://stenciljs.com/)
+
+---
+
+## Getting Started: Custom elements
+
+---
+
+## Getting Started: The Shadow DOM
+
+---
+
+## Getting Started: Slots & Slotted elements
+
+---
+
+## Getting Started: Configuring components
+
+---
+
+## Getting Started: Themes
+
+---
+
+## Getting Started: RTL
+
+---
+
+## Getting Started: Internationalization
+
+---
+
+<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
+
+## Demo: Getting started
+
+---
+
+<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
+
+## Create Esri branded apps
+
+---
+
+<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
+
+## Demo: Form
+
+---
+
+<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
+
+## Demo: Web mapping appplication
+
+---
+
+<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
+
+## Theming
+
+---
+
+## Theming: CSS Variables
+
+---
+
+<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
+
+## Examples in the wild
+
+---
+
+## Examples: Map Viewer
 
 ---
 
