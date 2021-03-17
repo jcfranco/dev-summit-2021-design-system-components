@@ -35,13 +35,13 @@ Introduce Esri's design system components, their benefits, and how they can be u
     - RTL
     - locale
 - Usage
+  - Getting started
+    - Demo 1: Get the components
   - Plug and play
   - Web components
     - slots
   - Themable
     - CSS variables
-- Getting started (How)
-  - Demo 1: Get the components
   - Demo 2: simple page app
   - Demo 3: simple mapping app with embedded map
 - Examples in the wild
