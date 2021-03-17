@@ -1,12 +1,12 @@
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-1.png" data-background-size="cover" -->
 
-# Calcite Components
+# Esri's Design System:
 
-A web component based UI library for JavaScript mapping applications
+#### Build Compelling Web Apps Faster Using the New Web Component Library
 
-#### Matt Driscoll
+## Matt Driscoll – [@driskull](https://twitter.com/driskull)
 
-#### JC Franco
+## JC Franco – [@arfncode](https://twitter.com/arfncode)
 
 ---
 
@@ -18,7 +18,7 @@ A web component based UI library for JavaScript mapping applications
 - Benefits
 - Tour of Calcite
 - Getting started
-- Create Esri branded apps
+- Create demo apps
 - Theming
 - Examples in the wild
 
@@ -34,10 +34,15 @@ A web component based UI library for JavaScript mapping applications
 
 ## Introduction: Calcite components
 
-- Part of Calcite
-  - Esri's design system. <!-- Collection of reusable components, guided by clear standards, that can be assembled together to build any number of applications -->
-  - New developer offering
-  - Part of the developer subscription
+- Part of Calcite: Esri's Design System
+  - Provides a library of patterns and ready-to-use, reusable components to help developers easily build consistent Esri-branded web applications.
+
+---
+
+## Introduction: Calcite components
+
+- New developer offering
+- Part of the developer subscription
 - 50+ web components
 - Plug and play
 
@@ -47,6 +52,8 @@ A web component based UI library for JavaScript mapping applications
 
 ## Benefits
 
+Why use Calcite components?
+
 ---
 
 ## Benefits: Consistency
@@ -55,32 +62,32 @@ A web component based UI library for JavaScript mapping applications
   - Esri branded
   - Identity
   - Principles
-  - best practices
+  - Best practices
 
 ---
 
 ## Benefits: Accessibility
 
-- Accessibility
+- todo
 
 ---
 
-## Benefits: Effort
+## Benefits: Reduced effort
 
-- Effort & cost
+- Reduced Effort & cost
   - Ease Esri apps follow agreed upon designs workflows
   - Reduce cost of design updates
-  - Dry
+  - DRY
 
 ---
 
-## Benefits: Modernization
+## Benefits: Modern & Future proof
 
-- Modernization
-  - Future proof
-  - Web components
-  - multiple frameworks
-  - built using Stencil.js
+- Web components
+  - Future proof (Native web technology)
+  - Encapsulated
+  - Familiar to HTML
+- Supports multiple frameworks (Framework agnostic)
 
 ---
 

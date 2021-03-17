@@ -47,7 +47,7 @@ Introduce Esri's design system components, their benefits, and how they can be u
     - Themes
     - RTL support
     - Internationalization
-- Create Esri branded apps
+- Create demos
   - Demo 2: simple page app
   - Demo 3: simple mapping app with embedded map
 - Theming
