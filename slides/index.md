@@ -12,16 +12,18 @@
 
 ## Agenda
 
-- Intro
-- Esri Design System
-- Demo
-- Q&A
+- Introduction
+- Benefits
+- Exploration
+- Usage
+- Creating Esri branded apps
+- Examples out in the wild
 
 ---
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
 
-## Intro
+## Introduction
 
 ---
 
