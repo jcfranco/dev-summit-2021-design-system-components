@@ -1,6 +1,6 @@
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-1.png" data-background-size="cover" -->
 
-# Esri's Design System:
+# Esri's Design System
 
 #### Build Compelling Web Apps Faster Using the New Web Component Library
 
@@ -26,7 +26,7 @@
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
 
-## Introduction
+# Introduction
 
 ---
 
@@ -52,7 +52,7 @@
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
 
-## Benefits
+# Benefits
 
 Why use Calcite components?
 
@@ -95,7 +95,7 @@ Why use Calcite components?
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
 
-## Calcite Tour
+# Calcite Tour
 
 ---
 
@@ -119,7 +119,7 @@ Why use Calcite components?
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
 
-## Getting Started
+# Getting Started
 
 ---
 
@@ -178,13 +178,13 @@ Why use Calcite components?
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
 
-## Demo: Getting started
+# Demo: Getting started
 
 ---
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
 
-## Create Esri branded apps
+# Create Esri branded apps
 
 ---
 
@@ -202,7 +202,7 @@ Why use Calcite components?
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
 
-## Theming
+# Theming
 
 ---
 
@@ -214,7 +214,7 @@ Why use Calcite components?
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
 
-## Examples in the wild
+# Examples in the wild
 
 ---
 

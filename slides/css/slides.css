@@ -9,31 +9,30 @@
   font-style: italic;
 }
 
+html,
+body {
+  font-size: 30px;
+}
+
+.reveal {
+  --heading1-size: 3rem;
+  --heading2-size: 2rem;
+  --heading3-size: 15rem;
+  --heading4-size: 1rem;
+}
+
 .reveal h1 {
-  font-size: 2.2em;
+  font-size: var(--heading1-size);
 }
 
 .reveal h2 {
-  font-size: 1.8em;
+  font-size: var(--heading2-size);
 }
 
 .reveal h3 {
-  font-size: 1.4em;
+  font-size: var(--heading3-size);
 }
 
 .reveal h4 {
-  font-size: 1.2em;
-}
-
-.floating {
-  animation: floaty 1s ease-in-out infinite alternate-reverse;
-}
-
-@keyframes floaty {
-  from {
-    transform: translate(0, -10px);
-  }
-  to {
-    transform: translate(0, 10px);
-  }
+  font-size: var(--heading4-size);
 }
