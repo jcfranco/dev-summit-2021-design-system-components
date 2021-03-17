@@ -48,53 +48,6 @@
 
 ## Esri Design System
 
-Goal: Introduce Esri's design system components, their benefits, and how they can be used now to make Esri branded mapping applications.
-
-- Intro
-- Agenda
-  - Introduction to Calcite components
-  - Benefits
-  - Exploration
-  - How to use
-  - Creating Esri branded apps (Demos)
-  - Examples in the wild
-- What are Calcite components? (Introduction)
-  - Part of Calcite
-    - Esri's design system
-  - Part of the developer subscription
-- Benefits
-  - Consistent UX
-    - Esri branded
-  - Effort & cost
-    - Ease Esri apps follow agreed upon designs/workflows
-    - Reduce cost of design updates
-    - Dry
-  - Accessibility
-  - Modernization
-    - Web components
-    - multiple frameworks
-    - Future proof
-    - built on stencil
-- Usage
-  - Plug and play
-  - Web components
-    - slots
-  - Themable
-    - CSS variables
-- Explore
-  - Documentation
-  - Demo sandbox?
-  - Icons
-  - Customization options
-    - RTL
-    - locale
-- Getting started (How)
-  - Demo 1: Get the components
-  - Demo 2: simple page app
-  - Demo 3: simple mapping app with embedded map
-- Examples in the wild
-  - Map Viewer Beta
-
 ---
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
