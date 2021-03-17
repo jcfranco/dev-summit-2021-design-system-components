@@ -32,14 +32,16 @@
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-2.png" data-background-size="cover"  -->
 
-## Introduction: Calcite components
+## Calcite components
 
-- Part of Calcite: Esri's Design System
-  - Provides a library of patterns and ready-to-use, reusable components to help developers easily build consistent Esri-branded web applications.
+- Part of Calcite (Esri's design system)
+  - Provides a library of patterns
+  - Ready-to-use, reusable components
+  - Helps developers easily build consistent Esri-branded apps
 
 ---
 
-## Introduction: Calcite components
+## Calcite components II
 
 - New developer offering
 - Part of the developer subscription
@@ -56,7 +58,7 @@ Why use Calcite components?
 
 ---
 
-## Benefits: Consistency
+## Consistency
 
 - Consistent UX
   - Esri branded
@@ -66,13 +68,13 @@ Why use Calcite components?
 
 ---
 
-## Benefits: Accessibility
+## Accessibility
 
 - todo
 
 ---
 
-## Benefits: Reduced effort
+## Reduced effort
 
 - Reduced Effort & cost
   - Ease Esri apps follow agreed upon designs workflows
@@ -81,7 +83,7 @@ Why use Calcite components?
 
 ---
 
-## Benefits: Modern & Future proof
+## Modern & Future proof
 
 - Web components
   - Future proof (Native web technology)
@@ -97,15 +99,21 @@ Why use Calcite components?
 
 ---
 
-## Calcite: Components
+## Calcite components
+
+- todo
 
 ---
 
-## Calcite: Icons
+## Calcite icons
+
+- todo
 
 ---
 
-## Calcite: Colors
+## Calcite colors
+
+- todo
 
 ---
 
@@ -115,7 +123,7 @@ Why use Calcite components?
 
 ---
 
-## Getting Started: Web components
+## Web components
 
 - Web standard
 - APIs
@@ -123,31 +131,48 @@ Why use Calcite components?
 
 ---
 
-## Getting Started: Custom elements
+## Custom elements
+
+- todo
 
 ---
 
-## Getting Started: The Shadow DOM
+## The Shadow DOM
+
+- todo
 
 ---
 
-## Getting Started: Slots & Slotted elements
+## Slots & Slotted elements
+
+- todo
 
 ---
 
-## Getting Started: Configuring components
+## Configuring components
+
+- Slots
+- Properties
+- Attributes
 
 ---
 
-## Getting Started: Themes
+## Themes
+
+- `theme="dark"`
 
 ---
 
-## Getting Started: RTL
+## RTL
+
+- Right-to-left support
+- `dir="rtl"`
 
 ---
 
-## Getting Started: Internationalization
+## Internationalization
+
+- todo
 
 ---
 
@@ -181,7 +206,9 @@ Why use Calcite components?
 
 ---
 
-## Theming: CSS Variables
+## CSS Variables
+
+- todo
 
 ---
 
@@ -191,7 +218,9 @@ Why use Calcite components?
 
 ---
 
-## Examples: Map Viewer
+## Map Viewer
+
+- todo
 
 ---
 
