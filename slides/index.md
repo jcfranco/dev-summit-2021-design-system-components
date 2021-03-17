@@ -52,24 +52,35 @@ Goal: Introduce Esri's design system components, their benefits, and how they ca
 
 - Intro
 - Agenda
-- Problem (Why)
-  - Inconsistent UX
-  - dev effort & cost
-  - no a11y
-  - single framework
-- Solution (How)
-  - Design system & components
+  - Introduction to Calcite components
+  - Benefits
+  - Exploration
+  - How to use
+  - Creating Esri branded apps (Demos)
+  - Examples in the wild
+- What are Calcite components? (Introduction)
+  - Part of Calcite
+    - Esri's design system
+  - Part of the developer subscription
+- Benefits
   - Consistent UX
-  - DRY
-  - Esri branded
-  - Reduce cost of design updates
-  - Ease Esri apps follow agreed upon designs/workflows
-  - Future proof
-  - built on stencil
-- Show components (What)
-  - Exploring the Design System
-  - web components
-  - licensing? - ping Julio/julie
+    - Esri branded
+  - Effort & cost
+    - Ease Esri apps follow agreed upon designs/workflows
+    - Reduce cost of design updates
+    - Dry
+  - Accessibility
+  - Modernization
+    - Web components
+    - multiple frameworks
+    - Future proof
+    - built on stencil
+- Usage
+  - Web components
+    - slots
+  - CSS variables
+- Explore
+  - Exploring Calcite components
   - Plug and play
   - Themable
   - Icons
