@@ -6,8 +6,8 @@ Introduce Esri's design system components, their benefits, and how they can be u
 - Agenda
   - Introduction to Calcite components
   - Benefits
-  - How to use
   - Exploration
+  - Usage
   - Creating Esri branded apps (Demos)
   - Examples in the wild
 - What are Calcite components? (Introduction)
@@ -27,12 +27,6 @@ Introduce Esri's design system components, their benefits, and how they can be u
     - multiple frameworks
     - Future proof
     - built on stencil
-- Usage
-  - Plug and play
-  - Web components
-    - slots
-  - Themable
-    - CSS variables
 - Explore
   - Documentation
   - Demo sandbox?
@@ -40,6 +34,12 @@ Introduce Esri's design system components, their benefits, and how they can be u
   - Customization options
     - RTL
     - locale
+- Usage
+  - Plug and play
+  - Web components
+    - slots
+  - Themable
+    - CSS variables
 - Getting started (How)
   - Demo 1: Get the components
   - Demo 2: simple page app
