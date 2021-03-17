@@ -6,8 +6,8 @@ Introduce Esri's design system components, their benefits, and how they can be u
 - Agenda
   - Introduction to Calcite components
   - Benefits
-  - Exploration
   - How to use
+  - Exploration
   - Creating Esri branded apps (Demos)
   - Examples in the wild
 - What are Calcite components? (Introduction)
