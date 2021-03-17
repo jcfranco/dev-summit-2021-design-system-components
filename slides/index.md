@@ -76,13 +76,14 @@ Goal: Introduce Esri's design system components, their benefits, and how they ca
     - Future proof
     - built on stencil
 - Usage
+  - Plug and play
   - Web components
     - slots
-  - CSS variables
-- Explore
-  - Exploring Calcite components
-  - Plug and play
   - Themable
+    - CSS variables
+- Explore
+  - Documentation
+  - Demo sandbox?
   - Icons
   - Customization options
     - RTL
