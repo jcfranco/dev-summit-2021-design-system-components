@@ -160,6 +160,10 @@ Why use Calcite components?
 
 ## Web Components (what?)
 
+- Suite of different technologies
+- Allows you to create reusable custom elements
+  - Functionality encapsulated
+  - utilize them in your web apps
 - Built on web standards
 - Supported by modern browsers
 
