@@ -57,3 +57,11 @@ fieldset {
   left: 0;
   z-index: 999;
 }
+
+ol {
+  margin: 0.5em 0;
+  padding: 0 1.5rem;
+}
+ol li {
+  padding: 0 0 1em 0;
+}
