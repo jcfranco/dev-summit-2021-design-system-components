@@ -16,10 +16,10 @@
 
 - Introduction
 - Benefits
-- Tour of Calcite
+- Calcite tour
 - Getting started
 - Create demo apps
-- Theming
+- Custom theming
 - Examples in the wild
 
 ---
@@ -30,23 +30,29 @@
 
 ---
 
+## Calcite - Esri's design system
+
+- Visual language
+  - Color
+  - Spacing
+  - Typography
+  - Patterns
+  - Principles
+  - etc...
+- Closes the gap between designers and UI engineers
+
+---
+
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-2.png" data-background-size="cover"  -->
 
 ## Calcite components
 
 - Web Components for Esri's Calcite Design System
+  - New developer offering (developer subscription)
   - Provides a library of patterns
-  - Ready-to-use, reusable components
+  - Ready-to-use, reusable
   - Helps developers easily build consistent Esri-branded apps
-
----
-
-## Calcite components II
-
-- New developer offering
-- Part of the developer subscription
-- 50+ web components
-- Plug and play
+  - 50+ web components
 
 ---
 
@@ -65,21 +71,29 @@ Why use Calcite components?
   - Identity
   - Principles
   - Best practices
+  - Conventions
+- Clear Direction For Designers And Developers
 
 ---
 
 ## Accessibility
 
-- todo
+- Follows [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) rules
+  - Semantics
+  - Keyboard access
+  - Color contrast
+  - Text alternatives
+- Continuous Integration (CI) aXe API
 
 ---
 
-## Reduced effort
+## Efficiency
 
 - Reduced Effort & cost
   - Ease Esri apps follow agreed upon designs workflows
   - Reduce cost of design updates
-  - DRY
+  - DRY (Don't repeat yourself)
+- Speed up development timelines
 
 ---
 
@@ -87,9 +101,17 @@ Why use Calcite components?
 
 - Web components
   - Future proof (Native web technology)
-  - Encapsulated
-  - Familiar to HTML
-- Supports multiple frameworks (Framework agnostic)
+  - Encapsulated (Shadow DOM)
+  - Familiar (HTML)
+  - Supports multiple frameworks (Framework agnostic)
+
+---
+
+## Browser Support
+
+| IE / Edge  | Firefox         | Chrome          | Safari          |
+| ---------- | --------------- | --------------- | --------------- |
+| IE11, Edge | last 2 versions | last 2 versions | last 2 versions |
 
 ---
 
@@ -161,7 +183,7 @@ Why use Calcite components?
 - Modularity
 - Encapsulation
 - Reusability
-- Framework-agnostic* ([most frameworks anyways 😅](https://custom-elements-everywhere.com/))
+- Framework-agnostic\* ([most frameworks anyways 😅](https://custom-elements-everywhere.com/))
 
 ---
 
@@ -177,19 +199,30 @@ Why use Calcite components?
 - Use as native HTML elements
 
 ```html
-<div class=example>
+<div class="example">
   <h4>native</h4>
   <label>
     Name (4 to 8 characters):
-    <input type=text minlength=4 maxlength=8 placeholder="John Doe" required>
+    <input
+      type="text"
+      minlength="4"
+      maxlength="8"
+      placeholder="John Doe"
+      required
+    />
   </label>
 </div>
 
-<div class=example>
+<div class="example">
   <h4>calcite</h4>
-  <calcite-label layout=inline>
+  <calcite-label layout="inline">
     Name (4 to 8 characters):
-    <calcite-input min-length=4 max-length=8 placeholder="John Doe" required></calcite-input>
+    <calcite-input
+      min-length="4"
+      max-length="8"
+      placeholder="John Doe"
+      required
+    ></calcite-input>
   </calcite-label>
 </div>
 ```
@@ -265,9 +298,7 @@ Component text is customizable via `intl` attributes/properties
 Component text is customizable via `intl` attributes/properties
 
 ```html
-<calcite-modal ... >
-  ...
-</calcite-modal>
+<calcite-modal ...> ... </calcite-modal>
 ```
 
 <img src="./img/modal-en.png" height="200px">
@@ -279,9 +310,7 @@ Component text is customizable via `intl` attributes/properties
 Component text is customizable via `intl` attributes/properties
 
 ```html
-<calcite-modal ... intl-close="Cerrar" >
-  ...
-</calcite-modal>
+<calcite-modal ... intl-close="Cerrar"> ... </calcite-modal>
 ```
 
 <img src="./img/modal-es.png" height="200px">
@@ -321,7 +350,9 @@ Component text is customizable via `intl` attributes/properties
 - Style props for easy consistent styling
 
 ```html
-<calcite-button appearance="outline" color="red" scale="l" icon-end="play" round>press play</calcite-button>
+<calcite-button appearance="outline" color="red" scale="l" icon-end="play" round
+  >press play</calcite-button
+>
 ```
 
 [Demo](https://codepen.io/jcfranco-the-scripter/pen/OJbYopZ?editors=1000)
@@ -340,7 +371,33 @@ Component text is customizable via `intl` attributes/properties
 
 ## Map Viewer
 
-[<img src="./img/map-viewer-beta.png" height="400px">](https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/try-out-the-new-map-viewer-beta/) 
+[<img src="./img/map-viewer-beta.png" height="400px">](https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/try-out-the-new-map-viewer-beta/)
+
+---
+
+## What's Next
+
+- Design system and components evolution ongoing
+  - Improved documentation
+  - More examples
+
+---
+
+## Summary
+
+- Introduced Calcite components & documentation
+- Benefits
+- Getting started
+- Demo apps
+- Theming
+- Examples
+
+---
+
+## Calcite Sessions
+
+- Esri's Design System: Build Beautiful, Consistent Web Apps Faster
+- Esri's Design System: Designing Applications Faster with UI Kits and Components
 
 ---
 

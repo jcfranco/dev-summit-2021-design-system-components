@@ -34,6 +34,7 @@ Introduce Esri's design system components, their benefits, and how they can be u
     - Web components
     - multiple frameworks
     - built using Stencil.js
+  - Requirements
 - Calcite Tour
   - Components
   - Icons
