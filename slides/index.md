@@ -133,21 +133,68 @@ Why use Calcite components?
 
 ---
 
-## Custom elements
+## Web Components (what?)
 
-- todo
-
----
-
-## The Shadow DOM
-
-- todo
+- Built on web standards
+- Supported by modern browsers
 
 ---
 
-## Slots & Slotted elements
+## Web Components (how?)
 
-- todo
+- Custom elements
+  - Allow you to create HTML elements that the browser can work with
+  - Lifecycle
+    - `constructor`
+    - `connectedCallback`
+    - `disconnectedCallback`
+    - `adoptedCallback`
+    - `attributeChangedCallback`
+- Shadow DOM
+  - `<slot>`
+- HTML templates
+
+---
+
+## Web Components (why?)
+
+- Modularity
+- Encapsulation
+- Reusability
+- Framework-agnostic* ([most frameworks anyways 😅](https://custom-elements-everywhere.com/))
+
+---
+
+## Get the components
+
+- [NPM](https://www.npmjs.com/package/@esri/calcite-components) / [Yarn](https://yarnpkg.com/package/@esri/calcite-components)
+- [CDN](https://js.arcgis.com/calcite-components/)
+
+---
+
+## Plug & Play
+
+- Use as native HTML elements
+
+```html
+<div class=example>
+  <h4>native</h4>
+  <label>
+    Name (4 to 8 characters):
+    <input type=text minlength=4 maxlength=8 placeholder="John Doe" required>
+  </label>
+</div>
+
+<div class=example>
+  <h4>calcite</h4>
+  <calcite-label layout=inline>
+    Name (4 to 8 characters):
+    <calcite-input min-length=4 max-length=8 placeholder="John Doe" required></calcite-input>
+  </calcite-label>
+</div>
+```
+
+[Demo](https://codepen.io/jcfranco-the-scripter/pen/BaQeOzr?editors=1000)
 
 ---
 
@@ -156,6 +203,39 @@ Why use Calcite components?
 - Slots
 - Properties
 - Attributes
+
+---
+
+## Slots
+
+Components provide slots to customize certain regions
+
+```html
+<calcite-tip heading="My Tip">
+  Okay Guy is a sullen-looking rage comic character...
+</calcite-tip>
+```
+
+<img src="./img/tip-no-thumbnail.png" height="200px">
+
+---
+
+## Slots
+
+Components provide slots to customize certain regions
+
+```html
+<calcite-tip heading="My Tip">
+  <img
+    slot="thumbnail"
+    src="https://i.kym-cdn.com/photos/images/original/000/082/456/Okay.png"
+    alt="This is an image of OK guy."
+  />
+  Okay Guy is a sullen-looking rage comic character...
+</calcite-tip>
+```
+
+<img src="./img/tip-with-thumbnail.png" height="200px">
 
 ---
 
@@ -174,7 +254,37 @@ Why use Calcite components?
 
 ## Internationalization
 
-- todo
+Component text is customizable via `intl` attributes/properties
+
+<img src="./img/modal-full.png" height="200px">
+
+---
+
+## Internationalization
+
+Component text is customizable via `intl` attributes/properties
+
+```html
+<calcite-modal ... >
+  ...
+</calcite-modal>
+```
+
+<img src="./img/modal-en.png" height="200px">
+
+---
+
+## Internationalization
+
+Component text is customizable via `intl` attributes/properties
+
+```html
+<calcite-modal ... intl-close="Cerrar" >
+  ...
+</calcite-modal>
+```
+
+<img src="./img/modal-es.png" height="200px">
 
 ---
 
@@ -200,17 +310,25 @@ Why use Calcite components?
 
 ## Demo: Web mapping appplication
 
+[![embedded-map-demo](./img/embedded-map.png)](../demos/embedded-map?webmapId=6c1f105834964553bddd0e7e31439d11)
+
 ---
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
 
-# Theming
+## Themable
 
----
+- Style props for easy consistent styling
 
-## CSS Variables
+```html
+<calcite-button appearance="outline" color="red" scale="l" icon-end="play" round>press play</calcite-button>
+```
 
-- todo
+[Demo](https://codepen.io/jcfranco-the-scripter/pen/OJbYopZ?editors=1000)
+
+- CSS variables are available as well
+
+[Demo](https://esri.github.io/calcite-components/?path=/story/overview-custom-theme--interactive-example)
 
 ---
 
@@ -222,7 +340,15 @@ Why use Calcite components?
 
 ## Map Viewer
 
-- todo
+[<img src="./img/map-viewer-beta.png" height="400px">](https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/try-out-the-new-map-viewer-beta/) 
+
+---
+
+## Additional Resources
+
+- https://developer.mozilla.org/en-US/docs/Web/Web_Components
+- https://github.com/Esri/calcite-components/
+- https://stenciljs.com/
 
 ---
 
