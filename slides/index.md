@@ -34,7 +34,7 @@
 
 ## Calcite components
 
-- Part of Calcite (Esri's design system)
+- Web Components for Esri's Calcite Design System
   - Provides a library of patterns
   - Ready-to-use, reusable components
   - Helps developers easily build consistent Esri-branded apps
@@ -101,7 +101,9 @@ Why use Calcite components?
 
 ## Calcite components
 
-- todo
+- Dependencies
+  - Calcite UI Icons
+  - Calcite Colors
 
 ---
 
