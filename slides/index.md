@@ -33,13 +33,17 @@
 ## Calcite - Esri's design system
 
 - Visual language
-  - Color
-  - Spacing
-  - Typography
-  - Patterns
+  - Design standards
+    - Color, Spacing, Typography...
+  - Documentation
   - Principles
+  - Patterns
   - etc...
 - Closes the gap between designers and UI engineers
+
+---
+
+\*disclaimer: we are not designers
 
 ---
 
@@ -49,6 +53,7 @@
 
 - Web Components for Esri's Calcite Design System
   - New developer offering (developer subscription)
+    - Internal & external customers
   - Provides a library of patterns
   - Ready-to-use, reusable
   - Helps developers easily build consistent Esri-branded apps
@@ -154,7 +159,7 @@ Why use Calcite components?
 - APIs
 - Tooling
   - [Stencil](https://stenciljs.com/)
-  - [Tailwind CSS](https://tailwindcss.com/)
+  - [Tailwind CSS](https://tailwindcss.com/) (Our design tokens)
 
 ---
 
