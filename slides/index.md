@@ -151,7 +151,9 @@ Why use Calcite components?
 
 - Web standard
 - APIs
-- Tooling: [Stencil](https://stenciljs.com/)
+- Tooling
+  - [Stencil](https://stenciljs.com/)
+  - [Tailwind CSS](https://tailwindcss.com/)
 
 ---
 
