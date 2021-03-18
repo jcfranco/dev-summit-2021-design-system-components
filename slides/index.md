@@ -93,6 +93,7 @@ Why use Calcite components?
   - Ease Esri apps follow agreed upon designs workflows
   - Reduce cost of design updates
   - DRY (Don't repeat yourself)
+  - No more reinventing the wheel
 - Speed up development timelines
 
 ---
