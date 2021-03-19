@@ -175,6 +175,8 @@ A tour of the Calcite developer documentation
 
 # Getting Started
 
+Using Calcite components for your projects
+
 ---
 
 ## Web components
