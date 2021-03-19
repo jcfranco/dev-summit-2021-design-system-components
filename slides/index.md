@@ -75,11 +75,11 @@ Why use Calcite components?
 
 - Consistent UX
   - Esri branded
-  - Identity (Look & Feel)
+  - Identity (Look & feel)
   - Principles
   - Best practices
   - Conventions
-- Clear Direction For Designers And Developers
+- Clear direction for designers & developers
 
 ---
 
@@ -97,7 +97,7 @@ Why use Calcite components?
 
 ## Accessibility
 
-- Follows [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) rules
+- Follows [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) (a11y guidelines)
   - Semantics
   - Keyboard access
   - Color contrast
@@ -147,8 +147,9 @@ A tour of the Calcite developer documentation
 ## Calcite components
 
 - Dependencies
-  - Calcite UI Icons
-  - Calcite Colors
+  - Calcite UI icons
+  - Calcite colors
+  - Calcite tailwind
 
 ---
 
