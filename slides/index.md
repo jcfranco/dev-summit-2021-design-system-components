@@ -4,9 +4,9 @@
 
 #### Build Compelling Web Apps Faster Using the New Web Component Library
 
-<h2><calcite-avatar scale="l" full-name="Matt Driscoll" thumbnail="./img/matt.jpeg" username="driskull"></calcite-avatar> Matt Driscoll – <a href="https://twitter.com/driskull" target="_blank">@driskull</a></h2>
+<h2><calcite-avatar scale="l" full-name="Matt Driscoll" thumbnail="./img/matt.jpeg"></calcite-avatar> Matt Driscoll – <a href="https://twitter.com/driskull" target="_blank">@driskull</a></h2>
 
-<h2><calcite-avatar scale="l" full-name="JC Franco" thumbnail="./img/jc.jpg" username="arfncode"></calcite-avatar> JC Franco – <a href="https://twitter.com/arfncode" target="_blank">@arfncode</a></h2>
+<h2><calcite-avatar scale="l" full-name="JC Franco" thumbnail="./img/jc.jpg"></calcite-avatar> JC Franco – <a href="https://twitter.com/arfncode" target="_blank">@arfncode</a></h2>
 
 ---
 
@@ -14,7 +14,7 @@
 
 ## Agenda
 
-- Introduction
+- Calcite Introduction
 - Benefits
 - Docs & demos
 - Getting started
@@ -45,7 +45,7 @@ Getting to know Calcite components
 
 ---
 
-<calcite-notice icon active scale="m" width="half" color="red">
+<calcite-notice icon active scale="m" width="half" color="yellow">
   <div slot="notice-title">*disclaimer</div>
   <div slot="notice-message">we are <strong><u>not</u></strong> designers</div>
 </calcite-notice>
@@ -149,35 +149,30 @@ A tour of the Calcite developer documentation
 
 ## Calcite components
 
-<div style="width:50%; margin: 0 auto; height: 500px">
-  <calcite-tree lines selection-mode="single" size="s">
-    <calcite-tree-item>
-      Calcite Components
-      <calcite-tree slot="children">
-        <calcite-tree-item>Calcite UI icons
-          <calcite-tree slot="children">
-            <calcite-tree-item>700+ UI icons</calcite-tree-item>
-          </calcite-tree>
-        </calcite-tree-item>
-        <calcite-tree-item>Calcite Colors
-          <calcite-tree slot="children">
-            <calcite-tree-item>All Esri colors</calcite-tree-item>
-            <calcite-tree-item>Light/Dark theme</calcite-tree-item>
-          </calcite-tree>
-        </calcite-tree-item>
-        <calcite-tree-item>Calcite tailwind
-          <calcite-tree slot="children">
-            <calcite-tree-item>Animations</calcite-tree-item>
-            <calcite-tree-item>Spacing scale</calcite-tree-item>
-            <calcite-tree-item>Shadows</calcite-tree-item>
-            <calcite-tree-item>Font scale</calcite-tree-item>
-          </calcite-tree>
-        </calcite-tree-item>
-      </calcite-tree>
-    </calcite-tree-item>
-
-  </calcite-tree>
-</div>
+<ul>
+  <li>
+    Calcite Colors
+    <ul>
+      <li>All Esri colors</li>
+      <li>Light/Dark theme</li>
+    </ul>
+  </li>
+  <li>
+    Calcite tailwind
+    <ul>
+      <li>Animations</li>
+      <li>Spacing scale</li>
+      <li>Shadows</li>
+      <li>Font scale</li>
+    </ul>
+  </li>
+  <li>
+  Calcite UI icons
+  <ul>
+    <li>700+ icons</li>
+  </ul>
+</li>
+</ul>
 
 ---
 
@@ -222,7 +217,7 @@ Using Calcite components for your projects
 - Suite of different technologies
 - Allows you to create reusable custom elements
   - Functionality encapsulated
-  - utilize them in your web apps
+  - Utilize them in your web apps
 - Built on web standards
 - Supported by modern browsers
 
