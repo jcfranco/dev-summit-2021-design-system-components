@@ -118,22 +118,18 @@ Why use Calcite components?
 <table>
   <thead>
     <tr>
-      <th>Chrome</th>
-      <th>Firefox</th>
-      <th>Safari</th>
-      <th>Edge</th>
-      <th>IE</th>
+      <th><img src="./img/chrome.svg" alt="Google Chrome" width="80px" /><h4>Chrome</h4></th>
+      <th><img src="./img/firefox.svg" alt="Mozilla Firefox" width="80px" /><h4>Firefox</h4></th>
+      <th><img src="./img/safari.svg" alt="Safari" width="80px" /><h4>Safari</h4></th>
+      <th><img src="./img/edge.svg" alt="Microsoft Edge" width="80px" /><h4>Edge</h4></th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td colspan="4">last 2 versions ✔</td>
-      <td>IE11 ✔*</td>
     </tr>
   </tbody>
 </table>
-
-\*Limited support for themes
 
 ---
 
