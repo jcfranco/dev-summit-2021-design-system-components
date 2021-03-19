@@ -62,8 +62,8 @@ Getting to know Calcite components
   - Easily build consistent Esri-branded apps
   - 50+ web components
   - Internal & external use
-  - [Developer subscription](https://www.esri.com/en-us/arcgis/products/arcgis-developers/overview) required
-  - Shared source
+    - [Developer subscription](https://www.esri.com/en-us/arcgis/products/arcgis-developers/overview) required
+    - Shared source
 
 ---
 
@@ -93,8 +93,7 @@ Why use Calcite components?
   - Ease Esri apps follow agreed upon designs workflows
   - Reduce cost of design updates
   - Reusable
-    - DRY (Don't repeat yourself)
-    - No more reinventing the wheel
+    - Stops reinventing the wheel
 - Speed up development timelines
 
 ---
@@ -150,30 +149,14 @@ A tour of the Calcite developer documentation
 
 ## Calcite components
 
-<ul>
-  <li>
-    Calcite Colors
-    <ul>
-      <li>All Esri colors</li>
-      <li>Light/Dark theme</li>
-    </ul>
-  </li>
-  <li>
-    Calcite tailwind
-    <ul>
-      <li>Animations</li>
-      <li>Spacing scale</li>
-      <li>Shadows</li>
-      <li>Font scale</li>
-    </ul>
-  </li>
-  <li>
-  Calcite UI icons
-  <ul>
-    <li>700+ icons</li>
-  </ul>
-</li>
-</ul>
+- [Calcite Colors](https://github.com/Esri/calcite-colors)
+  - Esri's official color palette
+  - Light/Dark theme
+- [Calcite tailwind](https://github.com/Esri/calcite-tailwind)
+  - [tailwindcss](https://tailwindcss.com/)
+  - Sizing, Spacing, Color, Typography, Shadows...
+- [Calcite UI icons](https://github.com/Esri/calcite-ui-icons)
+  - 700+ UI SVG icons
 
 ---
 
