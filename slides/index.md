@@ -16,7 +16,7 @@
 
 - Introduction
 - Benefits
-- Documentation & demos
+- Docs & demos
 - Getting started
 - Demo apps
 - Custom theming
@@ -138,7 +138,7 @@ Why use Calcite components?
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
 
-# Documentation & demos
+# Docs & demos
 
 A tour of the Calcite developer documentation
 
