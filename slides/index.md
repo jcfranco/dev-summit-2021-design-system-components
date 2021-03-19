@@ -45,7 +45,10 @@ Getting to know Calcite components
 
 ---
 
-\*disclaimer: we are **<u>not</u>** designers
+<calcite-notice icon active scale="m" width="half" color="red">
+  <div slot="notice-title">*disclaimer</div>
+  <div slot="notice-message">we are <strong><u>not</u></strong> designers</div>
+</calcite-notice>
 
 ---
 
