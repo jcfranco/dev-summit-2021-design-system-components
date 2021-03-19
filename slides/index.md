@@ -4,9 +4,9 @@
 
 #### Build Compelling Web Apps Faster Using the New Web Component Library
 
-## Matt Driscoll – [@driskull](https://twitter.com/driskull)
+<h2><calcite-avatar scale="l" full-name="Matt Driscoll" thumbnail="./img/matt.jpeg" username="driskull"></calcite-avatar> Matt Driscoll – <a href="https://twitter.com/driskull" target="_blank">@driskull</a></h2>
 
-## JC Franco – [@arfncode](https://twitter.com/arfncode)
+<h2><calcite-avatar scale="l" full-name="JC Franco" thumbnail="./img/jc.jpg" username="arfncode"></calcite-avatar> JC Franco – <a href="https://twitter.com/arfncode" target="_blank">@arfncode</a></h2>
 
 ---
 
