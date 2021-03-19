@@ -55,3 +55,10 @@ Introduce Esri's design system components, their benefits, and how they can be u
   - CSS variables
 - Examples out in the wild
   - Map Viewer Beta
+
+## todo
+
+- CDN
+- tailwind repo use
+- product logo icon
+- browser support doc?

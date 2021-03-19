@@ -176,19 +176,19 @@ A tour of the Calcite developer documentation
 
 ---
 
-## Calcite icons
+## Calcite UI Icons
 
 - todo
 
 ---
 
-## Calcite colors
+## Calcite Colors
 
 - todo
 
 ---
 
-## Calcite tailwind
+## Calcite Tailwind
 
 - todo
 
