@@ -18,7 +18,7 @@
 - Benefits
 - Calcite tour
 - Getting started
-- Create demo apps
+- Demo apps
 - Custom theming
 - Examples in the wild
 
@@ -43,7 +43,7 @@
 
 ---
 
-\*disclaimer: we are not designers
+\*disclaimer: we are **<u>not</u>** designers
 
 ---
 
@@ -86,8 +86,9 @@ Why use Calcite components?
 - Reduced Effort & cost
   - Ease Esri apps follow agreed upon designs workflows
   - Reduce cost of design updates
-  - DRY (Don't repeat yourself)
-  - No more reinventing the wheel
+  - Reusable
+    - DRY (Don't repeat yourself)
+    - No more reinventing the wheel
 - Speed up development timelines
 
 ---
@@ -103,13 +104,13 @@ Why use Calcite components?
 
 ---
 
-## Modern & Future proof
+## Standards-based
 
 - Web components
-  - Future proof (Native web technology)
-  - Encapsulated (Shadow DOM)
-  - Familiar (HTML)
-  - Supports multiple frameworks (Framework agnostic)
+  - W3C standard (Future proof)
+  - Encapsulation (Shadow DOM)
+  - Familiarity (HTML)
+  - Framework agnostic (Can be used in any framework)
 
 ---
 
