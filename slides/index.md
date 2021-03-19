@@ -28,6 +28,8 @@
 
 # Introduction
 
+Getting to know Calcite components
+
 ---
 
 ## Calcite - Esri's design system
@@ -53,11 +55,11 @@
 
 - Web Components for Esri's Calcite Design System
   - New developer subscription offering
-    - Internal & external customers
   - Provides a library of patterns
   - Ready-to-use, reusable
   - Easily build consistent Esri-branded apps
   - 50+ web components
+  - Internal & external use
 
 ---
 
@@ -107,7 +109,7 @@ Why use Calcite components?
 ## Standards-based
 
 - Web components
-  - W3C standard (Future proof)
+  - W3C specification (Future proof)
   - Encapsulation (Shadow DOM)
   - Familiarity (HTML)
   - Framework agnostic (Can be used in any framework)
