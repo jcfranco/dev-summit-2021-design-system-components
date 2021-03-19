@@ -57,12 +57,13 @@ Getting to know Calcite components
 ## Calcite components
 
 - Web Components for Esri's Calcite Design System
-  - New developer subscription offering
   - Provides a library of patterns
   - Ready-to-use, reusable
   - Easily build consistent Esri-branded apps
   - 50+ web components
   - Internal & external use
+  - [Developer subscription](https://www.esri.com/en-us/arcgis/products/arcgis-developers/overview) required
+  - Shared source
 
 ---
 
