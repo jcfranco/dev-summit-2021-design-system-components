@@ -52,11 +52,11 @@
 ## Calcite components
 
 - Web Components for Esri's Calcite Design System
-  - New developer offering (developer subscription)
+  - New developer subscription offering
     - Internal & external customers
   - Provides a library of patterns
   - Ready-to-use, reusable
-  - Helps developers easily build consistent Esri-branded apps
+  - Easily build consistent Esri-branded apps
   - 50+ web components
 
 ---
@@ -73,22 +73,11 @@ Why use Calcite components?
 
 - Consistent UX
   - Esri branded
-  - Identity
+  - Identity (Look & Feel)
   - Principles
   - Best practices
   - Conventions
 - Clear Direction For Designers And Developers
-
----
-
-## Accessibility
-
-- Follows [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) rules
-  - Semantics
-  - Keyboard access
-  - Color contrast
-  - Text alternatives
-- Continuous Integration (CI) aXe API
 
 ---
 
@@ -100,6 +89,17 @@ Why use Calcite components?
   - DRY (Don't repeat yourself)
   - No more reinventing the wheel
 - Speed up development timelines
+
+---
+
+## Accessibility
+
+- Follows [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) rules
+  - Semantics
+  - Keyboard access
+  - Color contrast
+  - Text alternatives
+- Continuous Integration (CI) using [axe API](https://www.deque.com/)
 
 ---
 
@@ -115,9 +115,25 @@ Why use Calcite components?
 
 ## Browser Support
 
-| IE / Edge  | Firefox         | Chrome          | Safari          |
-| ---------- | --------------- | --------------- | --------------- |
-| IE11, Edge | last 2 versions | last 2 versions | last 2 versions |
+<table>
+  <thead>
+    <tr>
+      <th>Chrome</th>
+      <th>Firefox</th>
+      <th>Safari</th>
+      <th>Edge</th>
+      <th>IE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4">last 2 versions ✔</td>
+      <td>IE11 ✔*</td>
+    </tr>
+  </tbody>
+</table>
+
+\*Limited support for themes
 
 ---
 
