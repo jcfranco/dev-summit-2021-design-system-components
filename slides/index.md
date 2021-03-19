@@ -146,10 +146,35 @@ A tour of the Calcite developer documentation
 
 ## Calcite components
 
-- Dependencies
-  - Calcite UI icons
-  - Calcite colors
-  - Calcite tailwind
+<div style="width:50%; margin: 0 auto; height: 500px">
+  <calcite-tree lines selection-mode="single" size="s">
+    <calcite-tree-item>
+      Calcite Components
+      <calcite-tree slot="children">
+        <calcite-tree-item>Calcite UI icons
+          <calcite-tree slot="children">
+            <calcite-tree-item>700+ UI icons</calcite-tree-item>
+          </calcite-tree>
+        </calcite-tree-item>
+        <calcite-tree-item>Calcite Colors
+          <calcite-tree slot="children">
+            <calcite-tree-item>All Esri colors</calcite-tree-item>
+            <calcite-tree-item>Light/Dark theme</calcite-tree-item>
+          </calcite-tree>
+        </calcite-tree-item>
+        <calcite-tree-item>Calcite tailwind
+          <calcite-tree slot="children">
+            <calcite-tree-item>Animations</calcite-tree-item>
+            <calcite-tree-item>Spacing scale</calcite-tree-item>
+            <calcite-tree-item>Shadows</calcite-tree-item>
+            <calcite-tree-item>Font scale</calcite-tree-item>
+          </calcite-tree>
+        </calcite-tree-item>
+      </calcite-tree>
+    </calcite-tree-item>
+
+  </calcite-tree>
+</div>
 
 ---
 
