@@ -126,7 +126,7 @@ Why use Calcite components?
   </thead>
   <tbody>
     <tr>
-      <td colspan="4">last 2 versions ✔</td>
+      <td colspan="4">Last 2 versions ✔</td>
     </tr>
   </tbody>
 </table>
