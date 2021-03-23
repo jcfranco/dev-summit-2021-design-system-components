@@ -79,7 +79,7 @@ Why use Calcite components?
 
 - Consistent UX
   - Esri branded
-  - Identity (Look & feel)
+  - Identity (look & feel)
   - Principles
   - Best practices
   - Conventions
@@ -89,11 +89,11 @@ Why use Calcite components?
 
 ## Efficiency
 
-- Reduced Effort & cost
+- Reduced effort & cost
   - Ease Esri apps follow agreed upon designs workflows
   - Reduce cost of design updates
   - Reusable
-    - Stops reinventing the wheel
+    - Stop reinventing the wheel
 - Speed up development timelines
 
 ---
@@ -112,10 +112,10 @@ Why use Calcite components?
 ## Standards-based
 
 - Web components
-  - W3C specification (Future proof)
+  - W3C specification (future-proof)
   - Encapsulation (Shadow DOM)
   - Familiarity (HTML)
-  - Framework agnostic (Can be used in any framework)
+  - Framework agnostic (can be used in any framework)
 
 ---
 
@@ -198,16 +198,14 @@ Using Calcite components for your projects
 ## Web Components (how?)
 
 - Custom elements
-  - Allow you to create HTML elements that the browser can work with
-  - Lifecycle
-    - `constructor`
-    - `connectedCallback`
-    - `disconnectedCallback`
-    - `adoptedCallback`
-    - `attributeChangedCallback`
+  - Browser-compatible elements
+  - Use native APIs
+  - DOM element lifecycle
 - Shadow DOM
-  - `<slot>`
+  - Encapsulates component HTML & CSS
+  - `<slot>` for distributing content
 - HTML templates
+  - Templatize custom element structure
 
 ---
 
@@ -231,23 +229,35 @@ Using Calcite components for your projects
 
 - Use as native HTML elements
 
-```html
-<div class="example">
-  <h4>native</h4>
+<div class="r-stack">
+
+  ```html
   <label>
     Name (4 to 8 characters):
     <input
-      type="text"
       minlength="4"
       maxlength="8"
       placeholder="John Doe"
       required
     />
   </label>
-</div>
-
-<div class="example">
-  <h4>calcite</h4>
+  ```
+  
+  <!-- .element: class="fragment fade-out" data-fragment-index="0" -->
+  
+  <label>
+    Name (4 to 8 characters):
+    <input
+      minlength="4"
+      maxlength="8"
+      placeholder="John Doe"
+      required
+    />
+  </label>
+  
+  <!-- .element: class="fragment fade-out" data-fragment-index="0" -->
+  
+  ```html
   <calcite-label layout="inline">
     Name (4 to 8 characters):
     <calcite-input
@@ -257,8 +267,23 @@ Using Calcite components for your projects
       required
     ></calcite-input>
   </calcite-label>
+  ```
+  
+  <!-- .element: class="fragment" data-fragment-index="0" -->
+  
+  <calcite-label layout="inline">
+    Name (4 to 8 characters):
+    <calcite-input
+      min-length="4"
+      max-length="8"
+      placeholder="John Doe"
+      required
+    ></calcite-input>
+  </calcite-label>
+  
+  <!-- .element: class="fragment" data-fragment-index="0" -->
+
 </div>
-```
 
 [Demo](https://codepen.io/jcfranco-the-scripter/pen/BaQeOzr?editors=1000)
 
@@ -282,7 +307,10 @@ Components provide slots to customize certain regions
 </calcite-tip>
 ```
 
-<img src="./img/tip-no-thumbnail.png" height="200px">
+<calcite-tip heading="My Tip">
+  Okay Guy is a sullen-looking rage comic character...
+</calcite-tip>
+
 
 ---
 
@@ -296,12 +324,21 @@ Components provide slots to customize certain regions
     slot="thumbnail"
     src="https://i.kym-cdn.com/photos/images/original/000/082/456/Okay.png"
     alt="This is an image of OK guy."
+    height="100px"
   />
   Okay Guy is a sullen-looking rage comic character...
 </calcite-tip>
 ```
 
-<img src="./img/tip-with-thumbnail.png" height="200px">
+<calcite-tip heading="My Tip">
+  <img
+    slot="thumbnail"
+    src="https://i.kym-cdn.com/photos/images/original/000/082/456/Okay.png"
+    alt="This is an image of OK guy."
+    height="200px"
+  />
+  Okay Guy is a sullen-looking rage comic character...
+</calcite-tip>
 
 ---
 
@@ -383,9 +420,7 @@ Component text is customizable via `intl` attributes/properties
 - Style props for easy consistent styling
 
 ```html
-<calcite-button appearance="outline" color="red" scale="l" icon-end="play" round
-  >press play</calcite-button
->
+<calcite-button appearance="outline" color="red" scale="l" icon-end="play" round>press play</calcite-button>
 ```
 
 [Demo](https://codepen.io/jcfranco-the-scripter/pen/OJbYopZ?editors=1000)
