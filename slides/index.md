@@ -14,9 +14,9 @@
 
 ## Agenda
 
-- Calcite Introduction
+- Calcite introduction
 - Benefits
-- Docs & demos
+- Building blocks
 - Getting started
 - Demo apps
 - Custom theming
@@ -143,7 +143,7 @@ Why use Calcite components?
 
 # Building blocks
 
-Disecting Calcite components
+Dissecting Calcite components
 
 ---
 
