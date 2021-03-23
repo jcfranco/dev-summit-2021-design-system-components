@@ -141,13 +141,13 @@ Why use Calcite components?
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
 
-# Docs & demos
+# Building blocks
 
-A tour of the Calcite developer documentation
+Disecting Calcite components
 
 ---
 
-## Calcite components
+## Building Blocks
 
 - [Calcite Colors](https://github.com/Esri/calcite-colors)
   - Esri's official color palette
@@ -160,21 +160,9 @@ A tour of the Calcite developer documentation
 
 ---
 
-## Calcite UI Icons
+<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
 
-- todo
-
----
-
-## Calcite Colors
-
-- todo
-
----
-
-## Calcite Tailwind
-
-- todo
+# Demo: Building blocks
 
 ---
 
