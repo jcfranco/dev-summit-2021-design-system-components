@@ -1,100 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Esri Components: A web component based UI library for JavaScript mapping applications</title>
-  <link rel="stylesheet" href="https://js.arcgis.com/4.19/@arcgis/core/assets/esri/themes/light/main.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <title>
+      Esri Components: A web component based UI library for JavaScript mapping
+      applications
+    </title>
+    <link
+      rel="stylesheet"
+      href="https://js.arcgis.com/4.19/@arcgis/core/assets/esri/themes/light/main.css"
+    />
 
-  <link rel="stylesheet" href="https://unpkg.com/@esri/calcite-components/dist/calcite/calcite.css" />
-  <script type="module" src="https://unpkg.com/@esri/calcite-components/dist/calcite/calcite.esm.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@esri/calcite-components/dist/calcite/calcite.css"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/@esri/calcite-components/dist/calcite/calcite.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/@esri/calcite-components/dist/calcite/calcite.js"
+    ></script>
 
-  <link rel="stylesheet" href="./app.css" />
-  <script type="module" src="./app.js"></script>
-</head>
-<body>
-  <main>
-    <calcite-loader id="app-loader" active></calcite-loader>
-    <div class="shell-container" hidden>
-      <calcite-shell content-behind>
-        <calcite-shell-panel id="primary-panel" slot="primary-panel" position="start" detached>
-          <calcite-action-bar slot="action-bar" theme="dark">
+    <link rel="stylesheet" href="./app.css" />
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <main>
+      <calcite-loader id="app-loader" active></calcite-loader>
+      <div class="shell-container" hidden>
+        <calcite-shell content-behind>
+          <calcite-shell-panel
+            id="primary-panel"
+            slot="primary-panel"
+            position="start"
+            detached
+          >
+            <calcite-action-bar slot="action-bar" theme="dark">
               <calcite-action-group>
-                <calcite-action data-action-id="layers" icon="layers" text="Layers"></calcite-action>
-                <calcite-action data-action-id="basemaps" icon="basemap" text="Basemaps"></calcite-action>
-                <calcite-action data-action-id="legend" icon="legend" text="Legend"></calcite-action>
-                <calcite-action data-action-id="bookmarks" icon="bookmark" text="Bookmarks"></calcite-action>
-                <calcite-action data-action-id="print" text="Print" icon="print"></calcite-action>
-                <calcite-action data-action-id="info" text="Info" icon="information"></calcite-action>
+                <calcite-action
+                  data-action-id="layers"
+                  icon="layers"
+                  text="Layers"
+                ></calcite-action>
+                <calcite-action
+                  data-action-id="basemaps"
+                  icon="basemap"
+                  text="Basemaps"
+                ></calcite-action>
+                <calcite-action
+                  data-action-id="legend"
+                  icon="legend"
+                  text="Legend"
+                ></calcite-action>
+                <calcite-action
+                  data-action-id="bookmarks"
+                  icon="bookmark"
+                  text="Bookmarks"
+                ></calcite-action>
+                <calcite-action
+                  data-action-id="print"
+                  text="Print"
+                  icon="print"
+                ></calcite-action>
+                <calcite-action
+                  data-action-id="info"
+                  text="Info"
+                  icon="information"
+                ></calcite-action>
               </calcite-action-group>
 
               <calcite-action-group>
-                <calcite-action data-action-id="tips" text="Tips" icon="lightbulb"></calcite-action>
-                <calcite-action data-action-id="feedback" text="Feedback" icon="mega-phone"></calcite-action>
+                <calcite-action
+                  data-action-id="tips"
+                  text="Tips"
+                  icon="lightbulb"
+                ></calcite-action>
+                <calcite-action
+                  data-action-id="feedback"
+                  text="Feedback"
+                  icon="mega-phone"
+                ></calcite-action>
               </calcite-action-group>
-          </calcite-action-bar>
+            </calcite-action-bar>
 
-          <calcite-panel heading="Layers" height-scale="l" width-scale="m" data-panel-id="layers" hidden>
-            <div id="layers-container"></div>
-          </calcite-panel>
+            <calcite-panel
+              heading="Layers"
+              height-scale="l"
+              width-scale="m"
+              data-panel-id="layers"
+              hidden
+            >
+              <div id="layers-container"></div>
+            </calcite-panel>
 
-          <calcite-panel heading="Basemaps" height-scale="l" width-scale="m" data-panel-id="basemaps" hidden>
-            <div id="basemaps-container"></div>
-          </calcite-panel>
+            <calcite-panel
+              heading="Basemaps"
+              height-scale="l"
+              width-scale="m"
+              data-panel-id="basemaps"
+              hidden
+            >
+              <div id="basemaps-container"></div>
+            </calcite-panel>
 
-          <calcite-panel heading="Legend" height-scale="l" width-scale="m" data-panel-id="legend" hidden>
-            <div id="legend-container"></div>
-          </calcite-panel>
+            <calcite-panel
+              heading="Legend"
+              height-scale="l"
+              width-scale="m"
+              data-panel-id="legend"
+              hidden
+            >
+              <div id="legend-container"></div>
+            </calcite-panel>
 
-          <calcite-panel heading="Bookmarks" height-scale="l" width-scale="m" data-panel-id="bookmarks" hidden>
-            <div id="bookmarks-container"></div>
-          </calcite-panel>
+            <calcite-panel
+              heading="Bookmarks"
+              height-scale="l"
+              width-scale="m"
+              data-panel-id="bookmarks"
+              hidden
+            >
+              <div id="bookmarks-container"></div>
+            </calcite-panel>
 
-          <calcite-panel heading="Print" height-scale="l" width-scale="m" data-panel-id="print" hidden>
-            <div id="print-container"></div>
-          </calcite-panel>
+            <calcite-panel
+              heading="Print"
+              height-scale="l"
+              width-scale="m"
+              data-panel-id="print"
+              hidden
+            >
+              <div id="print-container"></div>
+            </calcite-panel>
 
-          <calcite-panel id="info-panel" data-panel-id="info" hidden>
-            <h3 slot="header-content">Details</h3>
-            <div class="info-content">
-              <img id="item-thumbnail">
-              <div id="item-description"><!--dynamically populated--></div>
-              <calcite-label layout="inline">
-                Rating
-                <calcite-rating id="item-rating"><!--dynamically populated--></calcite-rating>
-              </calcite-label>
+            <calcite-panel id="info-panel" data-panel-id="info" hidden>
+              <h3 slot="header-content">Details</h3>
+              <div class="info-content">
+                <img id="item-thumbnail" />
+                <div id="item-description"><!--dynamically populated--></div>
+                <calcite-label layout="inline">
+                  Rating
+                  <calcite-rating id="item-rating"
+                    ><!--dynamically populated--></calcite-rating
+                  >
+                </calcite-label>
+              </div>
+            </calcite-panel>
+          </calcite-shell-panel>
+
+          <div slot="shell-header">
+            <h2 id="header-title"><!--dynamically populated--></h2>
+          </div>
+
+          <calcite-tip-manager slot="center-row" id="tip-manager" closed>
+            <calcite-tip-group group-title="Tips">
+              <calcite-tip heading="Header">
+                <img slot="thumbnail" src="./assets/tip-header.png" />
+                <p>The header will display the webmap's authored title.</p>
+              </calcite-tip>
+              <calcite-tip heading="Map actions">
+                <img slot="thumbnail" src="./assets/tip-map-actions.png" />
+                <p>
+                  The first group of actions provide map-specific operations.
+                </p>
+              </calcite-tip>
+              <calcite-tip heading="App actions">
+                <img slot="thumbnail" src="./assets/tip-app-actions.png" />
+                <p>
+                  The second group of actions provide app-specific operations,
+                  such as displaying these tips.
+                </p>
+              </calcite-tip>
+            </calcite-tip-group>
+          </calcite-tip-manager>
+
+          <calcite-modal id="feedback-modal">
+            <h3 slot="header">Feedback</h3>
+            <div slot="content">
+              Don't forget to fill out the session survey to submit feedback!
             </div>
-          </calcite-panel>
-        </calcite-shell-panel>
+          </calcite-modal>
 
-        <div slot="shell-header">
-          <h2 id="header-title"><!--dynamically populated--></h2>
-        </div>
-
-        <calcite-tip-manager slot="center-row" id="tip-manager" closed>
-          <calcite-tip-group group-title="Tips">
-            <calcite-tip heading="Header">
-              <img slot="thumbnail" src="./assets/tip-header.png">
-              <p>The header will display the webmap's authored title.</p>
-            </calcite-tip>
-            <calcite-tip heading="Map actions">
-              <img slot="thumbnail" src="./assets/tip-map-actions.png">
-              <p>The first group of actions provide map-specific operations.</p>
-            </calcite-tip>
-            <calcite-tip heading="App actions">
-              <img slot="thumbnail" src="./assets/tip-app-actions.png">
-              <p>The second group of actions provide app-specific operations, such as displaying these tips.</p>
-            </calcite-tip>
-          </calcite-tip-group>
-        </calcite-tip-manager>
-
-        <calcite-modal id="feedback-modal">
-          <h3 slot="header">Feedback</h3>
-          <div slot="content">Don't forget to fill out the session survey to submit feedback!</div>
-        </calcite-modal>
-
-        <div id="viewDiv"></div>
-      </calcite-shell>
-    </div>
-  </main>
-</body>
+          <div id="viewDiv"></div>
+        </calcite-shell>
+      </div>
+    </main>
+  </body>
 </html>

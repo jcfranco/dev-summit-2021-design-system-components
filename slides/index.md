@@ -164,6 +164,8 @@ Dissecting Calcite components
 
 # Demo: Building blocks
 
+[Explore building blocks](https://next.sites.afd.arcgis.com/calcite-design-system/)
+
 ---
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
@@ -231,7 +233,15 @@ Using Calcite components for your projects
 
 <div class="r-stack">
 
-  ```html
+```html
+<label>
+  Name (4 to 8 characters):
+  <input minlength="4" maxlength="8" placeholder="John Doe" required />
+</label>
+```
+
+  <!-- .element: class="fragment fade-out" data-fragment-index="0" -->
+
   <label>
     Name (4 to 8 characters):
     <input
@@ -241,36 +251,23 @@ Using Calcite components for your projects
       required
     />
   </label>
-  ```
-  
+
   <!-- .element: class="fragment fade-out" data-fragment-index="0" -->
-  
-  <label>
-    Name (4 to 8 characters):
-    <input
-      minlength="4"
-      maxlength="8"
-      placeholder="John Doe"
-      required
-    />
-  </label>
-  
-  <!-- .element: class="fragment fade-out" data-fragment-index="0" -->
-  
-  ```html
-  <calcite-label layout="inline">
-    Name (4 to 8 characters):
-    <calcite-input
-      min-length="4"
-      max-length="8"
-      placeholder="John Doe"
-      required
-    ></calcite-input>
-  </calcite-label>
-  ```
-  
+
+```html
+<calcite-label layout="inline">
+  Name (4 to 8 characters):
+  <calcite-input
+    min-length="4"
+    max-length="8"
+    placeholder="John Doe"
+    required
+  ></calcite-input>
+</calcite-label>
+```
+
   <!-- .element: class="fragment" data-fragment-index="0" -->
-  
+
   <calcite-label layout="inline">
     Name (4 to 8 characters):
     <calcite-input
@@ -280,7 +277,7 @@ Using Calcite components for your projects
       required
     ></calcite-input>
   </calcite-label>
-  
+
   <!-- .element: class="fragment" data-fragment-index="0" -->
 
 </div>
@@ -307,10 +304,11 @@ Components provide slots to customize certain regions
 </calcite-tip>
 ```
 
-<calcite-tip heading="My Tip">
-  Okay Guy is a sullen-looking rage comic character...
-</calcite-tip>
-
+<div style="display:flex; height: 200px; align-items: center; justify-content: center;">
+  <calcite-tip heading="My Tip">
+    Okay Guy is a sullen-looking rage comic character...
+  </calcite-tip>
+</div>
 
 ---
 
@@ -330,15 +328,17 @@ Components provide slots to customize certain regions
 </calcite-tip>
 ```
 
-<calcite-tip heading="My Tip">
-  <img
-    slot="thumbnail"
-    src="https://i.kym-cdn.com/photos/images/original/000/082/456/Okay.png"
-    alt="This is an image of OK guy."
-    height="200px"
-  />
-  Okay Guy is a sullen-looking rage comic character...
-</calcite-tip>
+<div style="display:flex; height: 350px; align-items: center; justify-content: center;">
+  <calcite-tip heading="My Tip">
+    <img
+      slot="thumbnail"
+      src="https://i.kym-cdn.com/photos/images/original/000/082/456/Okay.png"
+      alt="This is an image of OK guy."
+      height="200px"
+    />
+    Okay Guy is a sullen-looking rage comic character...
+  </calcite-tip>
+</div>
 
 ---
 
@@ -420,7 +420,9 @@ Component text is customizable via `intl` attributes/properties
 - Style props for easy consistent styling
 
 ```html
-<calcite-button appearance="outline" color="red" scale="l" icon-end="play" round>press play</calcite-button>
+<calcite-button appearance="outline" color="red" scale="l" icon-end="play" round
+  >press play</calcite-button
+>
 ```
 
 [Demo](https://codepen.io/jcfranco-the-scripter/pen/OJbYopZ?editors=1000)
@@ -443,22 +445,15 @@ Component text is customizable via `intl` attributes/properties
 
 ---
 
-## What's Next
+## Recap
 
-- Design system and components evolution ongoing
-  - Improved documentation
-  - More examples
-
----
-
-## Summary
-
-- Introduced Calcite components & documentation
+- Introduced Calcite components
 - Benefits
+- Building blocks
 - Getting started
 - Demo apps
-- Theming
-- Examples
+- Custom theming
+- Examples in the wild
 
 ---
 
