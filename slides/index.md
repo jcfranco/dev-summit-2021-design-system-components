@@ -391,6 +391,8 @@ Component text is customizable via `intl` attributes/properties
 
 # Demo: Getting started
 
+[![Getting started demo](./img/getting-started.png)](https://next.sites.afd.arcgis.com/calcite-design-system/guide/getting-started-developers/)
+
 ---
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
@@ -401,7 +403,9 @@ Component text is customizable via `intl` attributes/properties
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
 
-## Demo: Form
+## Demo: Calcite Components Form
+
+[![form components demo](./img/calcite-form.png)](../demos/calcite-form/)
 
 ---
 
@@ -480,7 +484,7 @@ Component text is customizable via `intl` attributes/properties
 
 > Where can I submit a question?
 
-[bit.ly/askjsapi](http://bit.ly/askjsapi)
+[Calcite GeoNet](https://community.esri.com/t5/calcite-design-system/ct-p/calcite-design-system)
 
 ---
 
