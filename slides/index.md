@@ -152,7 +152,7 @@ Dissecting Calcite components
 - [Calcite Colors](https://github.com/Esri/calcite-colors)
   - Esri's official color palette
   - Light/Dark theme
-- [Calcite tailwind](https://github.com/Esri/calcite-tailwind)
+- [Calcite Styles](https://github.com/Esri/calcite-styles)
   - [tailwindcss](https://tailwindcss.com/)
   - Sizing, Spacing, Color, Typography, Shadows...
 - [Calcite UI icons](https://github.com/Esri/calcite-ui-icons)

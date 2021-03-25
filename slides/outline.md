@@ -61,4 +61,3 @@ Introduce Esri's design system components, their benefits, and how they can be u
 - CDN ready to use
 - tailwind repo ready to use
 - browser support doc on site
-- Geonet forum
