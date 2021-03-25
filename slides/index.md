@@ -407,7 +407,7 @@ Building example applications
 
 ## Demo: Calcite Components Form
 
-[![form components demo](./img/calcite-form.png)](../demos/calcite-form/)
+[![form components demo](./img/calcite-form.png)](https://codepen.io/driskull/pen/gOgPvaN?editors=1000)
 
 ---
 
