@@ -399,6 +399,8 @@ Component text is customizable via `intl` attributes/properties
 
 # Create Esri branded apps
 
+Building example applications
+
 ---
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
@@ -440,6 +442,8 @@ Component text is customizable via `intl` attributes/properties
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
 
 # Examples in the wild
+
+Apps out there using Calcite components
 
 ---
 
