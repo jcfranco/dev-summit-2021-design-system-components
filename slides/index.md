@@ -484,7 +484,7 @@ Component text is customizable via `intl` attributes/properties
 
 > Where can I submit a question?
 
-[Calcite GeoNet](https://community.esri.com/t5/calcite-design-system/ct-p/calcite-design-system)
+[Calcite Design System - Esri Community](https://community.esri.com/t5/calcite-design-system/ct-p/calcite-design-system)
 
 ---
 
