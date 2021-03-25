@@ -421,6 +421,14 @@ Building example applications
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
 
+# Custom Theming
+
+Customizing Calcite's appearance
+
+---
+
+<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
+
 ## Themable
 
 - Style props for easy consistent styling
