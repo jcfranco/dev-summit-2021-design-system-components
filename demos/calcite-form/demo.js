@@ -39,12 +39,6 @@ window.onload = () => {
     combobox.appendChild(comboboxItem);
   });
 
-  const otherAspectCheckbox = document.getElementById("other-aspect-checkbox");
-  const otherAspectLabel = document.getElementById("other-aspect-label");
-  otherAspectCheckbox.addEventListener("calciteCheckboxChange", () => {
-    otherAspectLabel.toggleAttribute("disabled");
-  });
-
   const datePicker = document.getElementById("date-picker");
   datePicker.maxAsDate = new Date();
   datePicker.min = "2021-01-01";
