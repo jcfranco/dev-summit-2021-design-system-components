@@ -14,7 +14,7 @@
 
 ## Agenda
 
-- Calcite introduction
+- Introduction
 - Benefits
 - Building blocks
 - Getting started
@@ -56,7 +56,7 @@ Getting to know Calcite components
 
 ## Calcite components
 
-- Web Components for Esri's Calcite Design System
+- Web Components for Calcite Design System
   - Provides a library of patterns
   - Ready-to-use, reusable
   - Easily build consistent Esri-branded apps
@@ -78,8 +78,7 @@ Why use Calcite components?
 ## Consistency
 
 - Consistent UX
-  - Esri branded
-  - Identity (look & feel)
+  - Esri branded identity (look & feel)
   - Principles
   - Best practices
   - Conventions
@@ -90,7 +89,7 @@ Why use Calcite components?
 ## Efficiency
 
 - Reduced effort & cost
-  - Ease Esri apps follow agreed upon designs workflows
+  - Apps follow agreed upon designs workflows
   - Reduce cost of design updates
   - Reusable
     - Stop reinventing the wheel
@@ -100,7 +99,7 @@ Why use Calcite components?
 
 ## Accessibility
 
-- Follows [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) (a11y guidelines)
+- Follows [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) (W3 guidelines)
   - Semantics
   - Keyboard access
   - Color contrast
@@ -119,7 +118,7 @@ Why use Calcite components?
 
 ---
 
-## Browser Support
+## Modern browser Support
 
 <table>
   <thead>
