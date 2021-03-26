@@ -475,16 +475,19 @@ Apps out there using Calcite components
 
 ## Calcite Sessions
 
-- Esri's Design System: Build Beautiful, Consistent Web Apps Faster
-- Esri's Design System: Designing Applications Faster with UI Kits and Components
+- Esri's Design System sessions
+  - [Build Beautiful, Consistent Web Apps Faster](https://www.esri.com/en-us/about/events/devsummit/agenda/agenda/detail?q=design+system&date=2021-04-06)
+    - Julie Powell, Julio Ochoa
+  - [Designing Applications Faster with UI Kits and Components](https://www.esri.com/en-us/about/events/devsummit/agenda/agenda/detail?q=design+system&date=2021-04-08)
+    - Adam Tirella, Bryan Stifle
 
 ---
 
 ## Additional Resources
 
-- https://developer.mozilla.org/en-US/docs/Web/Web_Components
-- https://github.com/Esri/calcite-components/
-- https://stenciljs.com/
+- [Mozilla: Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components)
+- [Github: Calcite Components](https://github.com/Esri/calcite-components/)
+- [Stencil.js](https://stenciljs.com/)
 
 ---
 
