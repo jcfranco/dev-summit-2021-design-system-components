@@ -63,7 +63,6 @@ Getting to know Calcite components
   - 50+ web components
   - Internal & external use
     - [Developer subscription](https://next.sites.afd.arcgis.com/calcite-design-system/guide/licensing/) required
-    - Shared source
 
 ---
 
