@@ -435,14 +435,34 @@ Customizing Calcite's appearance
 - Style props for easy consistent styling
 
 ```html
-<calcite-button appearance="outline" color="red" scale="l" icon-end="play" round
-  >press play</calcite-button
->
+<calcite-button appearance="outline" color="gray" scale="l" icon-end="play" round>
+  press play
+</calcite-button>
 ```
+
+<calcite-button appearance="outline" color="gray" scale="l" icon-end="play" round>
+  press play
+</calcite-button>
 
 [Demo](https://codepen.io/jcfranco-the-scripter/pen/OJbYopZ?editors=1000)
 
-- CSS variables are available as well
+---
+
+<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
+
+## Themeable
+
+- CSS variables for color are available too
+
+```html
+<calcite-loader 
+  active 
+  style="--calcite-ui-brand: green; --calcite-ui-brand-press: yellow; --calcite-ui-brand-hover: red;">
+</calcite-loader>
+```
+
+<calcite-loader active style="--calcite-ui-brand: green; --calcite-ui-brand-press: yellow; --calcite-ui-brand-hover
+: red;"></calcite-loader>
 
 [Demo](https://esri.github.io/calcite-components/?path=/story/overview-custom-theme--interactive-example)
 
