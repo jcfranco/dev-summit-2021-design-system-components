@@ -204,8 +204,6 @@ Using Calcite components for your projects
 - Shadow DOM
   - Encapsulates component HTML & CSS
   - `<slot>` for distributing content
-- HTML templates
-  - Templatize custom element structure
 
 ---
 
@@ -218,13 +216,6 @@ Using Calcite components for your projects
 
 ---
 
-## Get the components
-
-- [NPM](https://www.npmjs.com/package/@esri/calcite-components) / [Yarn](https://yarnpkg.com/package/@esri/calcite-components)
-- [CDN](https://js.arcgis.com/calcite-components/)
-
----
-
 ## Plug & Play
 
 - Use as native HTML elements
@@ -234,7 +225,12 @@ Using Calcite components for your projects
 ```html
 <label>
   Name (4 to 8 characters):
-  <input minlength="4" maxlength="8" placeholder="John Doe" required />
+  <input 
+    minlength="4" 
+    maxlength="8" 
+    placeholder="John Doe" 
+    required 
+  />
 </label>
 ```
 
@@ -385,6 +381,13 @@ Component text is customizable via `intl` attributes/properties
 
 ---
 
+## Get the components
+
+- [NPM](https://www.npmjs.com/package/@esri/calcite-components) / [Yarn](https://yarnpkg.com/package/@esri/calcite-components)
+- [CDN](https://js.arcgis.com/calcite-components/)
+
+---
+
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
 
 # Demo: Getting started
@@ -411,7 +414,7 @@ Building example applications
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
 
-## Demo: Web mapping appplication
+## Demo: Web mapping application
 
 [![embedded-map-demo](./img/embedded-map.png)](../demos/embedded-map?webmapId=6c1f105834964553bddd0e7e31439d11)
 
@@ -427,7 +430,7 @@ Customizing Calcite's appearance
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
 
-## Themable
+## Themeable
 
 - Style props for easy consistent styling
 
@@ -473,18 +476,17 @@ Apps out there using Calcite components
 
 ## Calcite Sessions
 
-- Esri's Design System sessions
-  - [Build Beautiful, Consistent Web Apps Faster](https://www.esri.com/en-us/about/events/devsummit/agenda/agenda/detail?q=design+system&date=2021-04-06)
-    - Julie Powell, Julio Ochoa
-  - [Designing Applications Faster with UI Kits and Components](https://www.esri.com/en-us/about/events/devsummit/agenda/agenda/detail?q=design+system&date=2021-04-08)
-    - Adam Tirella, Bryan Stifle
+- [Build Beautiful, Consistent Web Apps Faster](https://www.esri.com/en-us/about/events/devsummit/agenda/agenda/detail?q=design+system&date=2021-04-06)
+  - Julie Powell, Julio Ochoa
+- [Designing Applications Faster with UI Kits and Components](https://www.esri.com/en-us/about/events/devsummit/agenda/agenda/detail?q=design+system&date=2021-04-08)
+  - Adam Tirella, Bryan Stifle
 
 ---
 
 ## Additional Resources
 
 - [Mozilla: Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components)
-- [Github: Calcite Components](https://github.com/Esri/calcite-components/)
+- [GitHub: Calcite Components](https://github.com/Esri/calcite-components/)
 - [Stencil.js](https://stenciljs.com/)
 
 ---
