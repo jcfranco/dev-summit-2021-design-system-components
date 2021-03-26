@@ -498,7 +498,7 @@ Apps out there using Calcite components
 
 > Where can I submit a question?
 
-[Calcite Design System - Esri Community](https://community.esri.com/t5/calcite-design-system/ct-p/calcite-design-system)
+[bit.ly/askcalcite](https://bit.ly/askcalcite)
 
 ---
 
