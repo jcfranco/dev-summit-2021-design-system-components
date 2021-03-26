@@ -62,7 +62,7 @@ Getting to know Calcite components
   - Easily build consistent Esri-branded apps
   - 50+ web components
   - Internal & external use
-    - [Developer subscription](https://www.esri.com/en-us/arcgis/products/arcgis-developers/overview) required
+    - [Developer subscription](https://next.sites.afd.arcgis.com/calcite-design-system/guide/licensing/) required
     - Shared source
 
 ---
