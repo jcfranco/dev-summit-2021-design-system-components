@@ -36,11 +36,10 @@ Getting to know Calcite components
 
 - Visual language
   - Design standards
-    - Color, Spacing, Typography...
+    - Color, Spacing, Typography, icons...
+  - Patterns & practices
   - Documentation
-  - Principles
-  - Patterns
-  - etc...
+  - Reusable components
 - Closes the gap between designers and UI engineers
 
 ---
@@ -57,12 +56,12 @@ Getting to know Calcite components
 ## Calcite components
 
 - Web Components for Calcite Design System
+  - 50+ web components
   - Provides a library of patterns
   - Ready-to-use, reusable
-  - Easily build consistent Esri-branded apps
-  - 50+ web components
   - Internal & external use
     - [Developer subscription](https://next.sites.afd.arcgis.com/calcite-design-system/guide/licensing/) required
+  - Easily build consistent Esri-branded apps
 
 ---
 
@@ -78,7 +77,6 @@ Why use Calcite components?
 
 - Consistent UX
   - Esri branded identity (look & feel)
-  - Principles
   - Best practices
   - Conventions
 - Clear direction for designers & developers
@@ -151,8 +149,8 @@ Dissecting Calcite components
   - Esri's official color palette
   - Light/Dark theme
 - [Calcite Styles](https://github.com/Esri/calcite-styles)
-  - [tailwindcss](https://tailwindcss.com/)
   - Sizing, Spacing, Color, Typography, Shadows...
+  - [tailwindcss](https://tailwindcss.com/)
 - [Calcite UI icons](https://github.com/Esri/calcite-ui-icons)
   - 700+ UI SVG icons
 
@@ -225,12 +223,7 @@ Using Calcite components for your projects
 ```html
 <label>
   Name (4 to 8 characters):
-  <input 
-    minlength="4" 
-    maxlength="8" 
-    placeholder="John Doe" 
-    required 
-  />
+  <input minlength="4" maxlength="8" placeholder="John Doe" required />
 </label>
 ```
 
@@ -435,7 +428,13 @@ Customizing Calcite's appearance
 - Style props for easy consistent styling
 
 ```html
-<calcite-button appearance="outline" color="gray" scale="l" icon-end="play" round>
+<calcite-button
+  appearance="outline"
+  color="gray"
+  scale="l"
+  icon-end="play"
+  round
+>
   press play
 </calcite-button>
 ```
@@ -455,9 +454,10 @@ Customizing Calcite's appearance
 - CSS variables for color are available too
 
 ```html
-<calcite-loader 
-  active 
-  style="--calcite-ui-brand: green; --calcite-ui-brand-press: yellow; --calcite-ui-brand-hover: red;">
+<calcite-loader
+  active
+  style="--calcite-ui-brand: green; --calcite-ui-brand-press: yellow; --calcite-ui-brand-hover: red;"
+>
 </calcite-loader>
 ```
 
