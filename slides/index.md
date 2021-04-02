@@ -276,8 +276,7 @@ Using Calcite components for your projects
 ## Configuring components
 
 - Slots
-- Properties
-- Attributes
+- Properties/Attributes
 
 ---
 
@@ -329,20 +328,52 @@ Components provide slots to customize certain regions
 
 ---
 
-## Themes
+## Properties/Attributes
 
-- `theme="dark"`
+### Themes
+
+- `theme="light"` (default) 
+- `theme="dark"` 
+
+<div style="display: flex; width: 50%; margin: 40px auto; gap: 40px;">
+  <calcite-select label="light-select" theme="light" width="half">
+    <calcite-option>one</calcite-option>
+    <calcite-option>two</calcite-option>
+    <calcite-option>three</calcite-option>
+  </calcite-select>
+  <calcite-select label="dark-select" theme="dark" width="half">
+    <calcite-option>one</calcite-option>
+    <calcite-option>two</calcite-option>
+    <calcite-option>three</calcite-option>
+  </calcite-select>
+</div>
 
 ---
 
-## RTL
+## Properties/Attributes
 
-- Right-to-left support
+### Right-to-left (RTL) support
+
 - `dir="rtl"`
 
+<div style="display: flex; width: 50%; margin: 40px auto; gap: 40px;">
+  <calcite-select label="light-select" width="half">
+    <calcite-option>one</calcite-option>
+    <calcite-option>two</calcite-option>
+    <calcite-option>three</calcite-option>
+  </calcite-select>
+  <calcite-select label="dark-select" dir="rtl" width="half">
+    <calcite-option>one</calcite-option>
+    <calcite-option>two</calcite-option>
+    <calcite-option>three</calcite-option>
+  </calcite-select>
+</div>
+
 ---
 
-## Internationalization
+## Properties/Attributes
+
+### Internationalization
 
 Component text is customizable via `intl` attributes/properties
 
@@ -350,7 +381,9 @@ Component text is customizable via `intl` attributes/properties
 
 ---
 
-## Internationalization
+## Properties/Attributes
+
+### Internationalization
 
 Component text is customizable via `intl` attributes/properties
 
@@ -362,7 +395,9 @@ Component text is customizable via `intl` attributes/properties
 
 ---
 
-## Internationalization
+## Properties/Attributes
+
+### Internationalization
 
 Component text is customizable via `intl` attributes/properties
 
@@ -377,7 +412,7 @@ Component text is customizable via `intl` attributes/properties
 ## Get the components
 
 - [NPM](https://www.npmjs.com/package/@esri/calcite-components) / [Yarn](https://yarnpkg.com/package/@esri/calcite-components)
-- [CDN](https://js.arcgis.com/calcite-components/)
+- CDN
 
 ---
 
@@ -507,9 +542,9 @@ Apps out there using Calcite components
 
 ## Additional Resources
 
-- [Mozilla: Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components)
 - [GitHub: Calcite Components](https://github.com/Esri/calcite-components/)
 - [Stencil.js](https://stenciljs.com/)
+- [Mozilla: Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components)
 
 ---
 
