@@ -269,7 +269,7 @@ Using Calcite components for your projects
 
 </div>
 
-[Demo](https://codepen.io/jcfranco-the-scripter/pen/BaQeOzr?editors=1000)
+[Demo](https://codepen.io/jcfranco/pen/BaQeOzr?editors=1000)
 
 ---
 
@@ -409,7 +409,7 @@ Building example applications
 
 ## Demo: Web mapping application
 
-[![embedded-map-demo](./img/embedded-map.png)](https://codepen.io/jcfranco-the-scripter/pen/qBRmWmW?editors=1010)
+[![embedded-map-demo](./img/embedded-map.png)](https://codepen.io/jcfranco/pen/qBRmWmW?editors=1010)
 
 ---
 
@@ -443,7 +443,7 @@ Customizing Calcite's appearance
   press play
 </calcite-button>
 
-[Demo](https://codepen.io/jcfranco-the-scripter/pen/OJbYopZ?editors=1000)
+[Demo](https://codepen.io/jcfranco/pen/OJbYopZ?editors=1000)
 
 ---
 
