@@ -409,7 +409,7 @@ Building example applications
 
 ## Demo: Web mapping application
 
-[![embedded-map-demo](./img/embedded-map.png)](../demos/embedded-map?webmapId=6c1f105834964553bddd0e7e31439d11)
+[![embedded-map-demo](./img/embedded-map.png)](https://codepen.io/jcfranco-the-scripter/pen/qBRmWmW?editors=1010)
 
 ---
 
