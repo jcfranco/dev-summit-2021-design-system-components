@@ -403,6 +403,8 @@ Building example applications
 
 [![form components demo](./img/calcite-form.png)](https://codepen.io/driskull/pen/gOgPvaN?editors=1000)
 
+[Components doc](https://next.sites.afd.arcgis.com/calcite-design-system/components/notice/)
+
 ---
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
