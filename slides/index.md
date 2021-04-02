@@ -1,6 +1,6 @@
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-1.png" data-background-size="cover" -->
 
-# Esri's Design System
+# Calcite - Esri's Design System
 
 #### Build Compelling Web Apps Faster Using the New Web Component Library
 
@@ -35,7 +35,7 @@ Getting to know Calcite components
 ## Calcite - Esri's design system
 
 - Visual language
-  - Design standards
+  - Design guidelines
     - Color, Spacing, Typography, icons...
   - Patterns & practices
   - Documentation
@@ -96,7 +96,7 @@ Why use Calcite components?
 
 ## Accessibility
 
-- Follows [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) (W3 guidelines)
+- Follows [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) (W3 a11y guidelines)
   - Semantics
   - Keyboard access
   - Color contrast
@@ -145,14 +145,14 @@ Dissecting Calcite components
 
 ## Building Blocks
 
-- [Calcite Colors](https://github.com/Esri/calcite-colors)
+- [Calcite Colors](https://github.com/Esri/calcite-colors) - [[DEMO](https://esri.github.io/calcite-colors/)]
   - Esri's official color palette
   - Light/Dark theme
+- [Calcite UI icons](https://github.com/Esri/calcite-ui-icons) - [[DEMO](https://esri.github.io/calcite-ui-icons/)]
+  - 700+ UI SVG icons
 - [Calcite Styles](https://github.com/Esri/calcite-styles)
   - Sizing, Spacing, Color, Typography, Shadows...
   - [tailwindcss](https://tailwindcss.com/)
-- [Calcite UI icons](https://github.com/Esri/calcite-ui-icons)
-  - 700+ UI SVG icons
 
 ---
 
@@ -385,7 +385,7 @@ Component text is customizable via `intl` attributes/properties
 
 # Demo: Getting started
 
-[![Getting started demo](./img/getting-started.png)](https://next.sites.afd.arcgis.com/calcite-design-system/guide/getting-started-developers/)
+[![Getting started demo](./img/getting-started.png)](https://next.sites.afd.arcgis.com/calcite-design-system/getting-started-developers/)
 
 ---
 
