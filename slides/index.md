@@ -185,11 +185,10 @@ Using Calcite components for your projects
 
 ## Web Components (what?)
 
-- Suite of different technologies
+- Suite of different technologies (web standards)
 - Allows you to create reusable custom elements
   - Functionality encapsulated
   - Utilize them in your web apps
-- Built on web standards
 - Supported by modern browsers
 
 ---
@@ -206,15 +205,6 @@ Using Calcite components for your projects
 
 ---
 
-## Web Components (why?)
-
-- Modularity
-- Encapsulation
-- Reusability
-- Framework-agnostic\* ([most frameworks anyways 😅](https://custom-elements-everywhere.com/))
-
----
-
 ## Plug & Play
 
 - Use as native HTML elements
@@ -224,7 +214,12 @@ Using Calcite components for your projects
 ```html
 <label>
   Name (4 to 8 characters):
-  <input minlength="4" maxlength="8" placeholder="John Doe" required />
+  <input
+    minlength="4"
+    maxlength="8"
+    placeholder="John Doe"
+    required
+  />
 </label>
 ```
 
@@ -410,47 +405,6 @@ Component text is customizable via `intl` attributes/properties
 
 ---
 
-## Get the components
-
-- [NPM](https://www.npmjs.com/package/@esri/calcite-components) / [Yarn](https://yarnpkg.com/package/@esri/calcite-components)
-- CDN
-
----
-
-<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
-
-# Demo: Getting started
-
-[![Getting started demo](./img/getting-started.png)](https://next.sites.afd.arcgis.com/calcite-design-system/getting-started-developers/)
-
----
-
-<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
-
-# Create Esri branded apps
-
-Building example applications
-
----
-
-<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
-
-## Demo: Calcite Components Form
-
-[![form components demo](./img/calcite-form.png)](https://codepen.io/driskull/pen/gOgPvaN?editors=1000)
-
-[Components doc](https://next.sites.afd.arcgis.com/calcite-design-system/components/notice/)
-
----
-
-<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
-
-## Demo: Web mapping application
-
-[![embedded-map-demo](./img/embedded-map.png)](https://codepen.io/jcfranco/pen/qBRmWmW?editors=1010)
-
----
-
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
 
 # Custom Theming
@@ -503,6 +457,47 @@ Customizing Calcite's appearance
 : red;"></calcite-loader>
 
 [Demo](https://esri.github.io/calcite-components/?path=/story/overview-custom-theme--interactive-example)
+
+---
+
+## Get the components
+
+- [NPM](https://www.npmjs.com/package/@esri/calcite-components) / [Yarn](https://yarnpkg.com/package/@esri/calcite-components)
+- CDN
+
+---
+
+<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
+
+# Demo: Getting started
+
+[![Getting started demo](./img/getting-started.png)](https://next.sites.afd.arcgis.com/calcite-design-system/getting-started-developers/)
+
+---
+
+<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
+
+# Create Esri branded apps
+
+Building example applications
+
+---
+
+<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
+
+## Demo: Calcite Components Form
+
+[![form components demo](./img/calcite-form.png)](https://codepen.io/driskull/pen/gOgPvaN?editors=1000)
+
+[Components doc](https://next.sites.afd.arcgis.com/calcite-design-system/components/notice/)
+
+---
+
+<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
+
+## Demo: Web mapping application
+
+[![embedded-map-demo](./img/embedded-map.png)](https://codepen.io/jcfranco/pen/qBRmWmW?editors=1010)
 
 ---
 
