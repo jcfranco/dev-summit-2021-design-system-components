@@ -153,6 +153,7 @@ Dissecting Calcite components
 - [Calcite Styles](https://github.com/Esri/calcite-styles)
   - Sizing, Spacing, Color, Typography, Shadows...
   - [tailwindcss](https://tailwindcss.com/)
+  - CSS Variables
 
 ---
 
@@ -332,8 +333,8 @@ Components provide slots to customize certain regions
 
 ### Themes
 
-- `theme="light"` (default) 
-- `theme="dark"` 
+- `theme="light"` (default)
+- `theme="dark"`
 
 <div style="display: flex; width: 50%; margin: 40px auto; gap: 40px;">
   <calcite-select label="light-select" theme="light" width="half">
