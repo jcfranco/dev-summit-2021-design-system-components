@@ -173,16 +173,6 @@ Using Calcite components for your projects
 
 ---
 
-## Web components
-
-- Web standard
-- APIs
-- Tooling
-  - [Stencil](https://stenciljs.com/)
-  - [Tailwind CSS](https://tailwindcss.com/) (Our design tokens)
-
----
-
 ## Web Components (what?)
 
 - Suite of different technologies (web standards)
@@ -465,6 +455,12 @@ Customizing Calcite's appearance
 - [NPM](https://www.npmjs.com/package/@esri/calcite-components) / [Yarn](https://yarnpkg.com/package/@esri/calcite-components)
 - CDN
 
+```html
+<script type="module" src="https://unpkg.com/@esri/calcite-components/dist/calcite/calcite.esm.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/@esri/calcite-components/dist/calcite/calcite.css" />
+```
+
 ---
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
@@ -507,6 +503,36 @@ Building example applications
 
 Apps out there using Calcite components
 
+<style>
+  .grid-container {
+    margin: auto 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      ". . ."
+      ". . ."
+      ". . .";
+  }
+
+  .grid-container img {
+    place-self: center;
+    height: 200px;
+  }
+</style>
+<div class="grid-container">
+  <img src="./img/calcite-example-1.png" />
+  <img src="./img/calcite-example-2.png" />
+  <img src="./img/calcite-example-3.png" />
+  <img src="./img/calcite-example-4.png" />
+  <img src="./img/calcite-example-5.png" />
+  <img src="./img/calcite-example-6.png" />
+  <img src="./img/calcite-example-7.png" />
+  <img src="./img/calcite-example-8.png" />
+  <img src="./img/calcite-example-9.png" />
+</div>
+
 ---
 
 ## Map Viewer
@@ -538,8 +564,8 @@ Apps out there using Calcite components
 
 ## Additional Resources
 
+- [Calcite Design System SDK](https://next.sites.afd.arcgis.com/calcite-design-system/)
 - [GitHub: Calcite Components](https://github.com/Esri/calcite-components/)
-- [Stencil.js](https://stenciljs.com/)
 - [Mozilla: Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components)
 
 ---
