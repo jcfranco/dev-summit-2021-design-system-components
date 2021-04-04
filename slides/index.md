@@ -197,23 +197,23 @@ Using Calcite components for your projects
 
 ## Plug & Play
 
-- Use as native HTML elements
+Use as native HTML elements
 
 <div class="r-stack">
 
-```html
-<label>
-  Name (4 to 8 characters):
-  <input
-    minlength="4"
-    maxlength="8"
-    placeholder="John Doe"
-    required
-  />
-</label>
-```
+<div class="r-stretch">
 
-  <!-- .element: class="fragment fade-out" data-fragment-index="0" -->
+  ```html
+  <label>
+    Name (4 to 8 characters):
+    <input
+      minlength="4"
+      maxlength="8"
+      placeholder="John Doe"
+      required
+    />
+  </label>
+  ```
 
   <label>
     Name (4 to 8 characters):
@@ -224,23 +224,13 @@ Using Calcite components for your projects
       required
     />
   </label>
+</div>
 
-  <!-- .element: class="fragment fade-out" data-fragment-index="0" -->
+<!-- .element: class="fragment fade-out" data-fragment-index="0" -->
 
-```html
-<calcite-label layout="inline">
-  Name (4 to 8 characters):
-  <calcite-input
-    min-length="4"
-    max-length="8"
-    placeholder="John Doe"
-    required
-  ></calcite-input>
-</calcite-label>
-```
-
-  <!-- .element: class="fragment" data-fragment-index="0" -->
-
+<div class="r-stretch">
+  
+  ```html
   <calcite-label layout="inline">
     Name (4 to 8 characters):
     <calcite-input
@@ -250,12 +240,21 @@ Using Calcite components for your projects
       required
     ></calcite-input>
   </calcite-label>
-
-  <!-- .element: class="fragment" data-fragment-index="0" -->
-
+  ```
+  
+  <calcite-label layout="inline">
+    Name (4 to 8 characters):
+    <calcite-input
+      min-length="4"
+      max-length="8"
+      placeholder="John Doe"
+      required
+    ></calcite-input>
+  </calcite-label>
 </div>
 
-[Demo](https://codepen.io/jcfranco/pen/BaQeOzr?editors=1000)
+<!-- .element: class="fragment" data-fragment-index="0" -->
+</div>
 
 ---
 
@@ -425,15 +424,13 @@ Customizing Calcite's appearance
   press play
 </calcite-button>
 
-[Demo](https://codepen.io/jcfranco/pen/OJbYopZ?editors=1000)
-
 ---
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
 
 ## Themeable
 
-- CSS variables for color are available too
+- [CSS variables](https://esri.github.io/calcite-components/?path=/story/overview-custom-theme--interactive-example) for color are available too
 
 ```html
 <calcite-loader
@@ -445,8 +442,6 @@ Customizing Calcite's appearance
 
 <calcite-loader active style="--calcite-ui-brand: green; --calcite-ui-brand-press: yellow; --calcite-ui-brand-hover
 : red;"></calcite-loader>
-
-[Demo](https://esri.github.io/calcite-components/?path=/story/overview-custom-theme--interactive-example)
 
 ---
 
@@ -535,15 +530,9 @@ Apps out there using Calcite components
 
 ---
 
-## Map Viewer
-
-[<img src="./img/map-viewer-beta.png" height="400px">](https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/try-out-the-new-map-viewer-beta/)
-
----
-
 ## Recap
 
-- Introduced Calcite components
+- Introduction
 - Benefits
 - Building blocks
 - Getting started
