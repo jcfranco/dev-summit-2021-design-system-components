@@ -489,7 +489,8 @@ Building example applications
 
 ## Demo: Web mapping application
 
-[![embedded-map-demo](./img/embedded-map.png)](https://codepen.io/jcfranco/pen/qBRmWmW?editors=1010)
+[![embedded-map-demo](./img/embedded-map.png)](https://codepen.io/jcfranco/pen/qBRmWmW?editors=1010) 
+<!-- .element style="margin: 0 auto; height: 40%; width: 40%" -->
 
 ---
 
