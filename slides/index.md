@@ -60,7 +60,7 @@ Getting to know Calcite components
   - Ready-to-use, reusable
   - Internal & external use
     - [Developer subscription](https://next.sites.afd.arcgis.com/calcite-design-system/guide/licensing/) required
-  - Easily build consistent Esri-branded apps
+  - Easily build consistent Esri-integrated apps
 
 ---
 
@@ -75,7 +75,7 @@ Why use Calcite components?
 ## Consistency
 
 - Consistent UX
-  - Esri branded identity (look & feel)
+  - Esri identity (look & feel)
   - Best practices
   - Conventions
 - Clear direction for designers & developers
@@ -469,7 +469,7 @@ Customizing Calcite's appearance
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
 
-# Create Esri branded apps
+# Create Esri integrated apps
 
 Building example applications
 
