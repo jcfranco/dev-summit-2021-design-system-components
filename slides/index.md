@@ -18,8 +18,8 @@
 - Benefits
 - Building blocks
 - Getting started
+- Theming
 - Demo apps
-- Custom theming
 - Examples in the wild
 - Q&A
 
@@ -204,17 +204,12 @@ Use as native HTML elements
 
 <div class="r-stretch">
 
-  ```html
-  <label>
-    Name (4 to 8 characters):
-    <input
-      minlength="4"
-      maxlength="8"
-      placeholder="John Doe"
-      required
-    />
-  </label>
-  ```
+```html
+<label>
+  Name (4 to 8 characters):
+  <input minlength="4" maxlength="8" placeholder="John Doe" required />
+</label>
+```
 
   <label>
     Name (4 to 8 characters):
@@ -230,19 +225,19 @@ Use as native HTML elements
 <!-- .element: class="fragment fade-out" data-fragment-index="0" -->
 
 <div class="r-stretch">
-  
-  ```html
-  <calcite-label layout="inline">
-    Name (4 to 8 characters):
-    <calcite-input
-      min-length="4"
-      max-length="8"
-      placeholder="John Doe"
-      required
-    ></calcite-input>
-  </calcite-label>
-  ```
-  
+
+```html
+<calcite-label layout="inline">
+  Name (4 to 8 characters):
+  <calcite-input
+    min-length="4"
+    max-length="8"
+    placeholder="John Doe"
+    required
+  ></calcite-input>
+</calcite-label>
+```
+
   <calcite-label layout="inline">
     Name (4 to 8 characters):
     <calcite-input
@@ -397,7 +392,7 @@ Component text is customizable via `intl` attributes/properties
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
 
-# Custom Theming
+# Theming
 
 Customizing Calcite's appearance
 
@@ -452,9 +447,16 @@ Customizing Calcite's appearance
 - CDN
 
 ```html
-<script type="module" src="https://unpkg.com/@esri/calcite-components/dist/calcite/calcite.esm.js"></script>
+<script
+  type="module"
+  src="https://unpkg.com/@esri/calcite-components/dist/calcite/calcite.esm.js"
+></script>
 
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/@esri/calcite-components/dist/calcite/calcite.css" />
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://unpkg.com/@esri/calcite-components/dist/calcite/calcite.css"
+/>
 ```
 
 ---
@@ -489,7 +491,8 @@ Building example applications
 
 ## Demo: Web mapping application
 
-[![embedded-map-demo](./img/embedded-map.png)](https://codepen.io/jcfranco/pen/qBRmWmW?editors=1010) 
+[![embedded-map-demo](./img/embedded-map.png)](https://codepen.io/jcfranco/pen/qBRmWmW?editors=1010)
+
 <!-- .element style="margin: 0 auto; height: 40%; width: 40%" -->
 
 ---
@@ -538,8 +541,8 @@ Apps out there using Calcite components
 - Benefits
 - Building blocks
 - Getting started
+- Theming
 - Demo apps
-- Custom theming
 - Examples in the wild
 
 ---
