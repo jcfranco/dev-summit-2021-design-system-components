@@ -29,11 +29,6 @@
 
 Getting to know Calcite components
 
-<calcite-notice icon active scale="m" width="half" color="yellow">
-  <div slot="notice-title">Disclaimer</div>
-  <div slot="notice-message">We are <u>not</u> designers</div>
-</calcite-notice>
-
 ---
 
 ## Calcite - Esri's design system
