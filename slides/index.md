@@ -144,10 +144,10 @@ Dissecting Calcite components
 
 ## Building Blocks
 
-- [Calcite Colors](https://github.com/Esri/calcite-colors) - [[DEMO](https://esri.github.io/calcite-colors/)]
+- [Calcite Colors](https://github.com/Esri/calcite-colors)
   - Esri's official color palette
   - Light/Dark theme
-- [Calcite UI icons](https://github.com/Esri/calcite-ui-icons) - [[DEMO](https://esri.github.io/calcite-ui-icons/)]
+- [Calcite UI icons](https://github.com/Esri/calcite-ui-icons)
   - 700+ UI SVG icons
 - [Calcite Styles](https://github.com/Esri/calcite-styles)
   - Sizing, Spacing, Color, Typography, Shadows...
@@ -160,7 +160,8 @@ Dissecting Calcite components
 
 # Demo: Building blocks
 
-[Explore building blocks](https://next.sites.afd.arcgis.com/calcite-design-system/)
+- [DEMO: Icon Library](https://next.sites.afd.arcgis.com/calcite-design-system/icons/)
+- [DEMO: Colors](https://next.sites.afd.arcgis.com/calcite-design-system/foundations/colors/)
 
 ---
 
@@ -481,7 +482,8 @@ Building example applications
 
 [![form components demo](./img/calcite-form.png)](https://codepen.io/driskull/pen/gOgPvaN?editors=1000)
 
-[Components doc](https://next.sites.afd.arcgis.com/calcite-design-system/components/notice/)
+- [DEMO: Calcite Form](https://codepen.io/driskull/pen/gOgPvaN?editors=1000)
+- [DEMO: Notice component](https://next.sites.afd.arcgis.com/calcite-design-system/components/notice/)
 
 ---
 
