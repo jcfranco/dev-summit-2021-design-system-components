@@ -542,7 +542,6 @@ Apps out there using Calcite components
 - Building blocks
 - Getting started
 - Demo apps
-- Examples in the wild
 
 ---
 
@@ -552,14 +551,6 @@ Apps out there using Calcite components
   - Julie Powell, Julio Ochoa
 - [Designing Applications Faster with UI Kits and Components](https://www.esri.com/en-us/about/events/devsummit/agenda/agenda/detail?q=design+system&date=2021-04-08)
   - Adam Tirella, Bryan Stifle
-
----
-
-## Additional Resources
-
-- [Calcite Design System SDK](https://next.sites.afd.arcgis.com/calcite-design-system/)
-- [GitHub: Calcite Components](https://github.com/Esri/calcite-components/)
-- [Mozilla: Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components)
 
 ---
 
