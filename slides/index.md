@@ -38,7 +38,7 @@ Getting to know Calcite components
 
 ## Calcite - Esri's design system
 
-- Visual language
+- Visual language for products
   - Design guidelines
     - Color, Spacing, Typography, icons...
   - Patterns & practices
