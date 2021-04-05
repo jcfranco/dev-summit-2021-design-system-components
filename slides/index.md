@@ -29,6 +29,11 @@
 
 Getting to know Calcite components
 
+<calcite-notice icon active scale="m" width="half" color="yellow">
+  <div slot="notice-title">Disclaimer</div>
+  <div slot="notice-message">We are <u>not</u> designers</div>
+</calcite-notice>
+
 ---
 
 ## Calcite - Esri's design system
@@ -40,13 +45,6 @@ Getting to know Calcite components
   - Documentation
   - Reusable components
 - Closes the gap between designers and UI engineers
-
----
-
-<calcite-notice icon active scale="m" width="half" color="yellow">
-  <div slot="notice-title">Disclaimer</div>
-  <div slot="notice-message">We are <u>not</u> designers</div>
-</calcite-notice>
 
 ---
 
@@ -72,7 +70,7 @@ Why use Calcite components?
 
 ---
 
-## Consistency
+## Consistency <calcite-icon icon="thumbs-up"></calcite-icon>
 
 - Consistent UX
   - Esri identity (look & feel)
@@ -82,7 +80,7 @@ Why use Calcite components?
 
 ---
 
-## Efficiency
+## Efficiency <calcite-icon icon="thumbs-up"></calcite-icon>
 
 - Reduced effort & cost
   - Apps follow agreed upon designs workflows
@@ -93,7 +91,7 @@ Why use Calcite components?
 
 ---
 
-## Accessibility
+## Accessibility <calcite-icon icon="thumbs-up"></calcite-icon>
 
 - Follows [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) (W3 a11y guidelines)
   - Semantics
@@ -104,7 +102,7 @@ Why use Calcite components?
 
 ---
 
-## Standards-based
+## Standards-based <calcite-icon icon="thumbs-up"></calcite-icon>
 
 - Web components
   - W3C specification (future-proof)
@@ -114,7 +112,7 @@ Why use Calcite components?
 
 ---
 
-## Modern browser Support
+## Modern browser Support <calcite-icon icon="thumbs-up"></calcite-icon>
 
 <table>
   <thead>
@@ -144,6 +142,8 @@ Dissecting Calcite components
 
 ## Building Blocks
 
+Foundations of Calcite components
+
 - [Calcite Colors](https://github.com/Esri/calcite-colors)
   - Esri's official color palette
   - Light/Dark theme
@@ -151,14 +151,19 @@ Dissecting Calcite components
   - 700+ UI SVG icons
 - [Calcite Styles](https://github.com/Esri/calcite-styles)
   - Sizing, Spacing, Color, Typography, Shadows...
-  - [tailwindcss](https://tailwindcss.com/)
-  - CSS Variables
+  - [tailwindcss](https://tailwindcss.com/) - CSS framework
+  - CSS custom properties (variables)
+    - `var(--calcite-ui-background)`
 
 ---
 
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-3.png" data-background-size="cover"  -->
 
 # Demo: Building blocks
+
+<calcite-notice active color="yellow" icon="exclamation-mark-triangle" scale="m" width="half">
+    <div slot="notice-title">Unreleased documentation</div>
+</calcite-notice>
 
 - [DEMO: Icon Library](https://next.sites.afd.arcgis.com/calcite-design-system/icons/)
 - [DEMO: Colors](https://next.sites.afd.arcgis.com/calcite-design-system/foundations/colors/)
