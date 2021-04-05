@@ -18,9 +18,7 @@
 - Benefits
 - Building blocks
 - Getting started
-- Theming
 - Demo apps
-- Examples in the wild
 - Q&A
 
 ---
@@ -541,7 +539,6 @@ Apps out there using Calcite components
 - Benefits
 - Building blocks
 - Getting started
-- Theming
 - Demo apps
 - Examples in the wild
 
