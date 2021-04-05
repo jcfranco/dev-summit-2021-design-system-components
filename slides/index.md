@@ -139,12 +139,12 @@ Dissecting Calcite components
 
 Foundations of Calcite components
 
-- [Calcite Colors](https://github.com/Esri/calcite-colors)
+- [Calcite Colors](https://www.npmjs.com/package/@esri/calcite-colors)
   - Esri's official color palette
   - Light/Dark theme
-- [Calcite UI icons](https://github.com/Esri/calcite-ui-icons)
+- [Calcite UI icons](https://www.npmjs.com/package/@esri/calcite-ui-icons)
   - 700+ UI SVG icons
-- [Calcite Styles](https://github.com/Esri/calcite-styles)
+- Calcite Styles (Coming soon...)
   - Sizing, Spacing, Color, Typography, Shadows...
   - [tailwindcss](https://tailwindcss.com/) - CSS framework
   - CSS custom properties (variables)
