@@ -94,7 +94,7 @@ Why use Calcite components?
   - Keyboard access
   - Color contrast
   - Text alternatives
-- Continuous Integration tested using [deque axe API](https://www.deque.com/)
+- Continuous Integration testing using [deque axe API](https://www.deque.com/)
 
 ---
 
