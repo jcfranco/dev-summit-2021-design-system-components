@@ -207,7 +207,11 @@ Use as native HTML elements
 ```html
 <label>
   Name (4 to 8 characters):
-  <input minlength="4" maxlength="8" placeholder="John Doe" required />
+  <input
+    minlength="4"
+    maxlength="8"
+    placeholder="John Doe"
+    required />
 </label>
 ```
 
