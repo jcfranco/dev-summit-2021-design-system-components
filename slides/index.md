@@ -429,9 +429,8 @@ Customizing Calcite's appearance
 - [CSS custom properties (variables)](https://esri.github.io/calcite-components/?path=/story/theming-custom-theme--interactive) for color are available too
 
 ```html
-<calcite-loader
-  active
-  style="--calcite-ui-brand: green;
+<calcite-loader active
+                style="--calcite-ui-brand: green;
                        --calcite-ui-brand-press: yellow;
                        --calcite-ui-brand-hover: red;"
 ></calcite-loader>
