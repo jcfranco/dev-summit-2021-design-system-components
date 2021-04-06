@@ -41,6 +41,7 @@ Getting to know Calcite components
     - Patterns & best practices
   - Reusable components
 - Closes the gap between designers and UI engineers
+- Releasing later this month
 
 ---
 
