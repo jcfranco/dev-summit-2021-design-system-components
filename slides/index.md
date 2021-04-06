@@ -425,14 +425,14 @@ Customizing Calcite's appearance
 
 ## Themeable
 
-- [CSS variables](https://esri.github.io/calcite-components/?path=/story/overview-custom-theme--interactive-example) for color are available too
+- [CSS custom properties (variables)](https://esri.github.io/calcite-components/?path=/story/theming-custom-theme--interactive) for color are available too
 
 ```html
-<calcite-loader
-  active
-  style="--calcite-ui-brand: green; --calcite-ui-brand-press: yellow; --calcite-ui-brand-hover: red;"
->
-</calcite-loader>
+<calcite-loader active 
+                style="--calcite-ui-brand: green;
+                       --calcite-ui-brand-press: yellow; 
+                       --calcite-ui-brand-hover: red;"
+></calcite-loader>
 ```
 
 <calcite-loader active style="--calcite-ui-brand: green; --calcite-ui-brand-press: yellow; --calcite-ui-brand-hover
@@ -509,16 +509,15 @@ Apps out there using Calcite components
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
+    gap: 10px;
     grid-template-areas:
       ". . ."
       ". . ."
       ". . .";
   }
-
   .grid-container img {
     place-self: center;
-    height: 200px;
+    height: 150px;
   }
 </style>
 <div class="grid-container">
