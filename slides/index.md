@@ -52,7 +52,7 @@ Getting to know Calcite components
   - Provides a library of patterns
   - Ready-to-use, reusable
   - Internal & external use
-    - [Developer subscription](https://next.sites.afd.arcgis.com/calcite-design-system/guide/licensing/) required
+    - [Developer subscription](https://developers.arcgis.com/pricing/build-arcgis-solutions/) required
   - Easily build consistent Esri-integrated apps
 
 ---
@@ -160,8 +160,8 @@ Foundations of Calcite components
     <div slot="notice-title">Unreleased documentation</div>
 </calcite-notice>
 
-- [DEMO: Icon Library](https://next.sites.afd.arcgis.com/calcite-design-system/icons/)
-- [DEMO: Colors](https://next.sites.afd.arcgis.com/calcite-design-system/foundations/colors/)
+- [DEMO: Icon Library](http://localhost:8000/#icon-library)
+- [DEMO: Colors](http://localhost:8000/foundations/colors/)
 
 ---
 
@@ -428,9 +428,10 @@ Customizing Calcite's appearance
 - [CSS custom properties (variables)](https://esri.github.io/calcite-components/?path=/story/theming-custom-theme--interactive) for color are available too
 
 ```html
-<calcite-loader active 
-                style="--calcite-ui-brand: green;
-                       --calcite-ui-brand-press: yellow; 
+<calcite-loader
+  active
+  style="--calcite-ui-brand: green;
+                       --calcite-ui-brand-press: yellow;
                        --calcite-ui-brand-hover: red;"
 ></calcite-loader>
 ```
@@ -464,7 +465,7 @@ Customizing Calcite's appearance
 
 # Demo: Getting started
 
-[![Getting started demo](./img/getting-started.png)](https://next.sites.afd.arcgis.com/calcite-design-system/getting-started-developers/)
+[![Getting started demo](./img/getting-started.png)](http://localhost:8000/getting-started-developers/)
 
 ---
 
@@ -483,7 +484,7 @@ Building example applications
 [![form components demo](./img/calcite-form.png)](https://codepen.io/driskull/pen/gOgPvaN?editors=1000)
 
 - [DEMO: Calcite Form](https://codepen.io/driskull/pen/gOgPvaN?editors=1000)
-- [DEMO: Notice component](https://next.sites.afd.arcgis.com/calcite-design-system/components/notice/)
+- [DEMO: Notice component](http://localhost:8000/components/notice/)
 
 ---
 
