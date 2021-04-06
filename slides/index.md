@@ -35,9 +35,10 @@ Getting to know Calcite components
 
 - Visual language for products
   - Design guidelines
-    - Color, Spacing, Typography, icons...
-  - Patterns & practices
-  - Documentation
+    - Color, Spacing, Typography...
+  - Graphic resources (Icons, symbols)
+  - Interactive documentation
+    - Patterns & best practices
   - Reusable components
 - Closes the gap between designers and UI engineers
 
@@ -49,11 +50,12 @@ Getting to know Calcite components
 
 - Web Components for Calcite Design System
   - 50+ web components
-  - Provides a library of patterns
-  - Ready-to-use, reusable
+    - Ready to use
+    - Reusable
+    - Provides a library of patterns
   - Internal & external use
-    - [Developer subscription](https://developers.arcgis.com/pricing/build-arcgis-solutions/) required
-  - Easily build consistent Esri-integrated apps
+    - [Developer subscription](https://developers.arcgis.com/pricing/build-arcgis-solutions/)
+  - Easily build beautiful consistent apps
 
 ---
 
@@ -80,8 +82,7 @@ Why use Calcite components?
 - Reduced effort & cost
   - Apps follow agreed upon designs workflows
   - Reduce cost of design updates
-  - Reusable
-    - Stop reinventing the wheel
+  - Reusable (Stop reinventing the wheel)
 - Speed up development timelines
 
 ---
@@ -93,7 +94,7 @@ Why use Calcite components?
   - Keyboard access
   - Color contrast
   - Text alternatives
-- Continuous Integration (CI) using [axe API](https://www.deque.com/)
+- Continuous Integration tested using [deque axe API](https://www.deque.com/)
 
 ---
 
@@ -103,7 +104,7 @@ Why use Calcite components?
   - W3C specification (future-proof)
   - Encapsulation (Shadow DOM)
   - Familiarity (HTML)
-  - Framework agnostic (can be used in any framework)
+  - Framework agnostic (Can be used in any framework)
 
 ---
 
