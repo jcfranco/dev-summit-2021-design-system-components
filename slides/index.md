@@ -36,7 +36,7 @@ Getting to know Calcite components
 - Visual language for products
   - Design guidelines
     - Color, Spacing, Typography...
-  - Graphic resources (Icons, symbols)
+  - Graphic resources (Icons, symbols, Sketch UI Kit)
   - Interactive documentation
     - Patterns & best practices
   - Reusable components
