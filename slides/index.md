@@ -554,6 +554,14 @@ Apps out there using Calcite components
 
 ---
 
+<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-5.png" data-background-size="cover" -->
+
+Please provide your feedback for this session by clicking on the session survey link directly below the video
+
+<!-- .element: style="margin: 0 20%;" -->
+
+---
+
 # Questions? 🤔
 
 > Where can I find the slides/source?
@@ -569,11 +577,3 @@ Apps out there using Calcite components
 <!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-5.png" data-background-size="cover" -->
 
 <img src="../node_modules/esri-reveal.js-templates/img/esri-science-logo-white.png" />
-
----
-
-<!-- .slide: data-background="../node_modules/esri-reveal.js-templates/img/2021/dev-summit/bg-5.png" data-background-size="cover" -->
-
-Please provide your feedback for this session by clicking on the session survey link directly below the video
-
-<!-- .element: style="margin: 0 20%;" -->
