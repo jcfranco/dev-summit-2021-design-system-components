@@ -454,13 +454,13 @@ Customizing Calcite's appearance
 ```html
 <script
   type="module"
-  src="https://js.arcgis.com/calcite-components/1.0.0/calcite.esm.js"
+  src="<CDN URL or NPM path>/calcite.esm.js"
 ></script>
 
 <link
   rel="stylesheet"
   type="text/css"
-  href="https://js.arcgis.com/calcite-components/1.0.0/calcite.css"
+  href="<CDN URL or NPM path>/calcite.css"
 />
 ```
 
