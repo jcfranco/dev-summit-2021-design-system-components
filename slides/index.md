@@ -41,7 +41,7 @@ Getting to know Calcite components
     - Patterns & best practices
   - Reusable components
 - Closes the gap between designers and UI engineers
-- Releasing later this month (April 22)
+- Releasing later this month
 
 ---
 
@@ -454,13 +454,13 @@ Customizing Calcite's appearance
 ```html
 <script
   type="module"
-  src="https://unpkg.com/@esri/calcite-components/dist/calcite/calcite.esm.js"
+  src="https://js.arcgis.com/calcite-components/1.0.0/calcite.esm.js"
 ></script>
 
 <link
   rel="stylesheet"
   type="text/css"
-  href="https://unpkg.com/@esri/calcite-components/dist/calcite/calcite.css"
+  href="https://js.arcgis.com/calcite-components/1.0.0/calcite.css"
 />
 ```
 
